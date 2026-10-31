@@ -1,0 +1,16 @@
+"M4-cold/wasm-atr" = true
+"M4-noop/wasm-atr" = true
+"M4-warm/wasm-atr" = true
+"S-add/wasm-atr" = true
+"S-artifacts/wasm-atr" = true
+"S-compressed/wasm-atr" = true
+"S-fail/wasm-atr" = true
+"S-gc-auto/wasm-atr" = true
+"S-gc/wasm-atr" = true
+"S-git/wasm-atr" = true
+"S-instantiate/wasm-atr" = true
+"S-registry-compressed/wasm-atr" = true
+"S-registry/wasm-atr" = true
+"S-resolve/wasm-atr" = true
+"S-rm/wasm-atr" = true
+"S-status/wasm-atr" = true

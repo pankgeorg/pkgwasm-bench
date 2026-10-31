@@ -1,0 +1,34 @@
+errors = ["""The following package names could not be resolved:\n * NoSuchPkg (not found in project, manifest or registry)"""]
+exits = [1]
+julia_system = ["aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version+1.13.2"]
+kind = "baseline"
+registry_listing = ["CACHEDIR.TAG", "General"]
+requests = ["GET /registries 200"]
+rundir = "/home/pgeorgakopoulos/wasm-pkg/fixtures/baseline/.run-S-fail"
+
+[packages]
+
+[[registries]]
+content_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+dirname = "General"
+name = "General"
+storage = "directory"
+tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+uuid = "23338594-aafe-5451-b93e-139f81909106"
+
+[[steps]]
+requests = ["GET /registries 200"]
+
+    [steps.packages]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "General"]
+    update_log_keys = ["23338594-aafe-5451-b93e-139f81909106"]
+
+        [[steps.registries.registries]]
+        content_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        dirname = "General"
+        name = "General"
+        storage = "directory"
+        tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        uuid = "23338594-aafe-5451-b93e-139f81909106"

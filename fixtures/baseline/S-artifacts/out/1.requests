@@ -1,0 +1,7 @@
+2026-10-29T21:22:42.486Z GET /registries 200 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2
+2026-10-29T21:22:42.777Z GET /registries 200 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2
+2026-10-29T21:22:42.901Z GET /package/21216c6a-2e73-6563-6e65-726566657250/aef1987d90dcc2e2cbd919ad10b2d25bcce4f418 200 aef1987d90dcc2e2cbd919ad10b2d25bcce4f418.zst 17068 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2
+2026-10-29T21:22:43.137Z GET /package/6e34b625-4abd-537c-b88f-471c36dfa7a0/1b96ea4a01afe0ea4090c5c8039690672dd13f2e 200 1b96ea4a01afe0ea4090c5c8039690672dd13f2e.zst 4370 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2
+2026-10-29T21:22:43.209Z GET /package/692b3bcd-3c85-4b1f-b108-f13ce0eb3210/7204148362dafe5fe6a273f855b8ccbe4df8173e 200 7204148362dafe5fe6a273f855b8ccbe4df8173e.zst 11101 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2
+2026-10-29T21:22:43.489Z GET /registries 200 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2
+2026-10-29T21:22:44.881Z GET /artifact/ffd5a7f2f7b63ef413accafeaaea298c49d4d2af 200 ffd5a7f2f7b63ef413accafeaaea298c49d4d2af.zst 189126 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2

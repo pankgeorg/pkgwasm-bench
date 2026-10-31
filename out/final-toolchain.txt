@@ -1,0 +1,4 @@
+Verified after all timing batches:
+julia version 1.13.2
+v24.22.1
+wasm-opt version 130 (version_130)

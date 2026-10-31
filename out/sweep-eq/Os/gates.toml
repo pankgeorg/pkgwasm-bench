@@ -1,0 +1,16 @@
+"M4-cold/wasm-Os" = true
+"M4-noop/wasm-Os" = true
+"M4-warm/wasm-Os" = true
+"S-add/wasm-Os" = true
+"S-artifacts/wasm-Os" = true
+"S-compressed/wasm-Os" = true
+"S-fail/wasm-Os" = true
+"S-gc-auto/wasm-Os" = true
+"S-gc/wasm-Os" = true
+"S-git/wasm-Os" = true
+"S-instantiate/wasm-Os" = true
+"S-registry-compressed/wasm-Os" = true
+"S-registry/wasm-Os" = true
+"S-resolve/wasm-Os" = true
+"S-rm/wasm-Os" = true
+"S-status/wasm-Os" = true

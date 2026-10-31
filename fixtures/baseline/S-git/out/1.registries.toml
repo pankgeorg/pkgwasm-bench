@@ -1,0 +1,11 @@
+listing = ["CACHEDIR.TAG", "Reg"]
+update_log_keys = ["nothing"]
+
+[[registries]]
+content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+dirname = "Reg"
+masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+name = "Reg"
+storage = "git"
+tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"

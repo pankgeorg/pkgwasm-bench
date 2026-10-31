@@ -1,0 +1,221 @@
+{
+  "rows": {
+    "table1/results.csv": 645,
+    "table2/io.csv": 120,
+    "table3/results.csv": 340,
+    "table3-io/io.csv": 510,
+    "startup/startup.csv": 25,
+    "opt.csv": 110
+  },
+  "gates": {
+    "out/validate/gates.toml": {
+      "count": 48,
+      "passed": 48
+    },
+    "out/io-validate/gates.toml": {
+      "count": 24,
+      "passed": 24
+    },
+    "out/sweep-eq/O3/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-eq/O3-keepalive/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/O3-keepalive/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/O3conv/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/O3conv/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/O3x2/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/O3x2/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/Os/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/Os/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/gufaopt/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/gufaopt/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/tmerge/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/tmerge/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/atr/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/atr/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/rut/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/rut/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/mono/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/mono/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/gccombo/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/gccombo/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/tnh/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/tnh/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/node-noliftoff/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/node-noliftoff/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/node-liftoffonly/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/node-liftoffonly/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/node-nodyntier/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/node-nodyntier/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/node-nolazy/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/node-nolazy/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/node-semi32/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/node-semi32/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/node-semi64/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/node-semi64/gates.toml": {
+      "count": 3,
+      "passed": 3
+    },
+    "out/sweep-eq/node-semi128/gates.toml": {
+      "count": 16,
+      "passed": 16
+    },
+    "out/sweep-io-eq/node-semi128/gates.toml": {
+      "count": 3,
+      "passed": 3
+    }
+  },
+  "instrumentation": {
+    "tar": true,
+    "walk": true,
+    "walkdir": true,
+    "lines": true,
+    "read": true,
+    "cp": true,
+    "toml": true,
+    "dir": true
+  },
+  "base_m4_cache": [
+    {
+      "path": "out/table1/runs/M4/r1/wasm/M4-warm/out",
+      "unchanged": true
+    },
+    {
+      "path": "out/table1/runs/M4/r1/wasm/M4-noop/out",
+      "unchanged": true
+    },
+    {
+      "path": "out/table1/runs/M4/r2/wasm/M4-warm/out",
+      "unchanged": true
+    },
+    {
+      "path": "out/table1/runs/M4/r2/wasm/M4-noop/out",
+      "unchanged": true
+    },
+    {
+      "path": "out/table1/runs/M4/r3/wasm/M4-warm/out",
+      "unchanged": true
+    },
+    {
+      "path": "out/table1/runs/M4/r3/wasm/M4-noop/out",
+      "unchanged": true
+    },
+    {
+      "path": "out/table1/runs/M4/r4/wasm/M4-warm/out",
+      "unchanged": true
+    },
+    {
+      "path": "out/table1/runs/M4/r4/wasm/M4-noop/out",
+      "unchanged": true
+    },
+    {
+      "path": "out/table1/runs/M4/r5/wasm/M4-warm/out",
+      "unchanged": true
+    },
+    {
+      "path": "out/table1/runs/M4/r5/wasm/M4-noop/out",
+      "unchanged": true
+    }
+  ],
+  "issues": []
+}

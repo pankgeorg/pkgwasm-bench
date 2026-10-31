@@ -1,0 +1,16 @@
+"M4-cold/wasm-O3conv" = true
+"M4-noop/wasm-O3conv" = true
+"M4-warm/wasm-O3conv" = true
+"S-add/wasm-O3conv" = true
+"S-artifacts/wasm-O3conv" = true
+"S-compressed/wasm-O3conv" = true
+"S-fail/wasm-O3conv" = true
+"S-gc-auto/wasm-O3conv" = true
+"S-gc/wasm-O3conv" = true
+"S-git/wasm-O3conv" = true
+"S-instantiate/wasm-O3conv" = true
+"S-registry-compressed/wasm-O3conv" = true
+"S-registry/wasm-O3conv" = true
+"S-resolve/wasm-O3conv" = true
+"S-rm/wasm-O3conv" = true
+"S-status/wasm-O3conv" = true

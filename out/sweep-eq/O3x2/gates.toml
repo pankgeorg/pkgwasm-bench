@@ -1,0 +1,16 @@
+"M4-cold/wasm-O3x2" = true
+"M4-noop/wasm-O3x2" = true
+"M4-warm/wasm-O3x2" = true
+"S-add/wasm-O3x2" = true
+"S-artifacts/wasm-O3x2" = true
+"S-compressed/wasm-O3x2" = true
+"S-fail/wasm-O3x2" = true
+"S-gc-auto/wasm-O3x2" = true
+"S-gc/wasm-O3x2" = true
+"S-git/wasm-O3x2" = true
+"S-instantiate/wasm-O3x2" = true
+"S-registry-compressed/wasm-O3x2" = true
+"S-registry/wasm-O3x2" = true
+"S-resolve/wasm-O3x2" = true
+"S-rm/wasm-O3x2" = true
+"S-status/wasm-O3x2" = true

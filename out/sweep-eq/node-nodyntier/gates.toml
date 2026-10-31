@@ -1,0 +1,16 @@
+"M4-cold/wasm-node-nodyntier" = true
+"M4-noop/wasm-node-nodyntier" = true
+"M4-warm/wasm-node-nodyntier" = true
+"S-add/wasm-node-nodyntier" = true
+"S-artifacts/wasm-node-nodyntier" = true
+"S-compressed/wasm-node-nodyntier" = true
+"S-fail/wasm-node-nodyntier" = true
+"S-gc-auto/wasm-node-nodyntier" = true
+"S-gc/wasm-node-nodyntier" = true
+"S-git/wasm-node-nodyntier" = true
+"S-instantiate/wasm-node-nodyntier" = true
+"S-registry-compressed/wasm-node-nodyntier" = true
+"S-registry/wasm-node-nodyntier" = true
+"S-resolve/wasm-node-nodyntier" = true
+"S-rm/wasm-node-nodyntier" = true
+"S-status/wasm-node-nodyntier" = true

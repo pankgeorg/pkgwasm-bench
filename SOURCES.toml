@@ -1,0 +1,21 @@
+# Exact measured Git snapshots; source repositories are supplied separately.
+
+[[source]]
+name = "IRStructurizer.jl"
+path = "src/IRStructurizer.jl"
+commit = "ab056b165d5038229e2dd700df932b8a9704e03b"
+
+[[source]]
+name = "PkgWasm.jl"
+path = "src/PkgWasm.jl"
+commit = "9fe2f5ab458abba7b4d4f3de4aa86e64f97d67b5"
+
+[[source]]
+name = "WasmBuilder.jl"
+path = "src/WasmBuilder.jl"
+commit = "4b64c589478e8769209a3870488f65c77a751f6c"
+
+[[source]]
+name = "WasmCodegen.jl"
+path = "src/WasmCodegen.jl"
+commit = "5d4b68e0d5eba32ee901d06e81c525efaa2d8666"

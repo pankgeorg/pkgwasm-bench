@@ -1,0 +1,3 @@
+Status `/home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/project/Project.toml`
+  [3fc5ad6e] Bar v0.2.0 `file:///home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/git/Foo:sub/Bar#main`
+  [7876af07] Foo v0.1.0 `/home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/depot/dev/Foo`

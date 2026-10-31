@@ -1,0 +1,46 @@
+errors = [""]
+exits = [0]
+julia_system = []
+kind = "baseline"
+registry_listing = ["CACHEDIR.TAG", "General"]
+requests = []
+rundir = "/home/pgeorgakopoulos/wasm-pkg/fixtures/baseline/.run-S-rm"
+
+[packages]
+"Example/SUIr0" = "e1f0e1a832ccd8e97d6d0348dec33ee139a5aeaf"
+"JSON/63jrL" = "3a9b0da8237deffb70be5e8d2e9af7601e4a79b0"
+"Parsers/rei2T" = "610915fdeab587d89d6e9f2768b7268674ceb62b"
+"PrecompileTools/QUxvR" = "edbeefc7a4889f528644251bdb5fc9ab5348bc2c"
+"Preferences/Q68Ah" = "aef1987d90dcc2e2cbd919ad10b2d25bcce4f418"
+"StructUtils/Cu1tu" = "96cf0c4f535157787dc4089eca1cbed62d124d5f"
+
+[[registries]]
+content_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+dirname = "General"
+name = "General"
+storage = "directory"
+tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+uuid = "23338594-aafe-5451-b93e-139f81909106"
+
+[[steps]]
+requests = []
+
+    [steps.packages]
+    "Example/SUIr0" = "e1f0e1a832ccd8e97d6d0348dec33ee139a5aeaf"
+    "JSON/63jrL" = "3a9b0da8237deffb70be5e8d2e9af7601e4a79b0"
+    "Parsers/rei2T" = "610915fdeab587d89d6e9f2768b7268674ceb62b"
+    "PrecompileTools/QUxvR" = "edbeefc7a4889f528644251bdb5fc9ab5348bc2c"
+    "Preferences/Q68Ah" = "aef1987d90dcc2e2cbd919ad10b2d25bcce4f418"
+    "StructUtils/Cu1tu" = "96cf0c4f535157787dc4089eca1cbed62d124d5f"
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "General"]
+    update_log_keys = ["23338594-aafe-5451-b93e-139f81909106"]
+
+        [[steps.registries.registries]]
+        content_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        dirname = "General"
+        name = "General"
+        storage = "directory"
+        tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        uuid = "23338594-aafe-5451-b93e-139f81909106"

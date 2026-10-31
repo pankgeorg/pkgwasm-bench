@@ -1,0 +1,4 @@
+2026-10-28T23:27:12.342Z GET /registries 200 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2
+2026-10-28T23:27:12.359Z GET /registry/23338594-aafe-5451-b93e-139f81909106/bf156f1d33580ac1fadbb60976e2a8577a66ed42 200 bf156f1d33580ac1fadbb60976e2a8577a66ed42.zst 7784178 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2
+2026-10-28T23:27:16.645Z GET /registries 200 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2
+2026-10-28T23:27:20.086Z GET /registries 200 sys=aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version%2B1.13.2

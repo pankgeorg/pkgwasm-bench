@@ -1,0 +1,22 @@
+    Updating registry at `/home/pgeorgakopoulos/wasm-pkg/wt/artifacts/fixtures/baseline/.run-S-gc-auto/depot/registries/General`
+   Resolving package versions...
+   Installed JLLWrappers ─ v1.8.0
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed Example ───── v0.5.5
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `/home/pgeorgakopoulos/wasm-pkg/wt/artifacts/fixtures/baseline/.run-S-gc-auto/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `/home/pgeorgakopoulos/wasm-pkg/wt/artifacts/fixtures/baseline/.run-S-gc-auto/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0

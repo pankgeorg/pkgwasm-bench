@@ -1,0 +1,16 @@
+"M4-cold/wasm-rut" = true
+"M4-noop/wasm-rut" = true
+"M4-warm/wasm-rut" = true
+"S-add/wasm-rut" = true
+"S-artifacts/wasm-rut" = true
+"S-compressed/wasm-rut" = true
+"S-fail/wasm-rut" = true
+"S-gc-auto/wasm-rut" = true
+"S-gc/wasm-rut" = true
+"S-git/wasm-rut" = true
+"S-instantiate/wasm-rut" = true
+"S-registry-compressed/wasm-rut" = true
+"S-registry/wasm-rut" = true
+"S-resolve/wasm-rut" = true
+"S-rm/wasm-rut" = true
+"S-status/wasm-rut" = true

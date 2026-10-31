@@ -1,0 +1,19 @@
+{
+  "out/pkgwasm.wasm": "c3703fc1b4fc130f58a9dbe2c9cf1b5d093832d901b0158e5c16e0e29fabd89c",
+  "out/bench-variants/O3.wasm": "43341da2a10b24aaebcbc475f85ced5cd3f1b8ec7694f48231ddeb8a678022ff",
+  "harness/pkgbench.jl": "2e230d7d96d5a3dc34df2b51f852cf70dffd211908491245a04762b24c198fcc",
+  "harness/iobench.jl": "0104e5f195c31c5fba6ec99868b545788b9b3e18ecdc6212e613935d74610dbc",
+  "runner/scenarios.jl": "aa4a22062d2064b8af6fdd4b58f9615144a85456531e15b5bf9fb610937377b4",
+  "runner/native_pkg.jl": "cbb3ef4646d458eb17412605586acc3e9b200e67f9e5f2125dcae66e6ef72d67",
+  "runner/pkgwasm.mjs": "2777937f3615846b0c9dc30c96c4204e04bddf4d369637fb5f0328dd817d3321",
+  "bench/BenchIO.jl": "8a070812e53b2e9c8aa4608ee9c68dc3db16422808d65ebc37fef3e1c3985863",
+  "bench/native.jl": "dec559d8969e649fe3c8aeb8c742620b2764534866131d104611bf6d47d5a8ae",
+  "fixtures/frozen.toml": "163821e13593b3a7ed629b3aeb2a557f1f2d8875cca5b58c1cb07007896c5978",
+  "fixtures/scenarios.toml": "712f722f641883cd0f982a303d4c79b0e558ebccc97a79adfedb657a300e1c2f",
+  "fixtures/initial/m4/project/Manifest.toml": "81e30450b569b0bbcc3bf13aa866b18b51d922b26d19a4e0c630427f311e2dee",
+  "fixtures/initial/m4/project/Project.toml": "e8537f83ffcf52ff8f38bd452ec30b3b28d70d56b1b3b838a86fbe874c9b2058",
+  "src/WasmCodegen.jl": "5d4b68e0d5eba32ee901d06e81c525efaa2d8666",
+  "src/PkgWasm.jl": "9fe2f5ab458abba7b4d4f3de4aa86e64f97d67b5",
+  "src/WasmBuilder.jl": "4b64c589478e8769209a3870488f65c77a751f6c",
+  "src/IRStructurizer.jl": "ab056b165d5038229e2dd700df932b8a9704e03b"
+}

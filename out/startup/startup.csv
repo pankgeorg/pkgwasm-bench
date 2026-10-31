@@ -1,0 +1,26 @@
+round,what,wall_s,maxrss_kib,load1
+1,julia -e 0,0.1930,157440,14.67
+1,julia + load Pkg,0.6662,278400,14.86
+1,julia + load PkgWasm,0.3925,237440,14.86
+1,node -e 0,0.0405,40320,14.86
+1,node compile pkgwasm.wasm,0.0790,53760,14.86
+2,julia -e 0,0.1888,157440,14.86
+2,julia + load Pkg,0.6754,278400,14.86
+2,julia + load PkgWasm,0.4012,237440,14.86
+2,node -e 0,0.0440,40320,14.71
+2,node compile pkgwasm.wasm,0.0797,54400,14.71
+3,julia -e 0,0.1960,157440,14.71
+3,julia + load Pkg,0.6589,278400,14.71
+3,julia + load PkgWasm,0.3885,237440,14.71
+3,node -e 0,0.0426,40320,14.71
+3,node compile pkgwasm.wasm,0.0720,54400,14.71
+4,julia -e 0,0.1949,157440,14.71
+4,julia + load Pkg,0.6822,278400,14.73
+4,julia + load PkgWasm,0.4062,236800,14.73
+4,node -e 0,0.0417,40320,14.73
+4,node compile pkgwasm.wasm,0.0748,54400,14.73
+5,julia -e 0,0.1940,157440,14.73
+5,julia + load Pkg,0.6902,279040,14.73
+5,julia + load PkgWasm,0.4073,237440,14.73
+5,node -e 0,0.0425,39680,14.83
+5,node compile pkgwasm.wasm,0.0768,54400,14.83

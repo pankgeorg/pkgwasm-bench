@@ -1,0 +1,127 @@
+artifact_listing = ["CACHEDIR.TAG"]
+errors = ["", "", "", ""]
+exits = [0, 0, 0, 0]
+julia_system = ["aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version+1.13.2"]
+kind = "baseline"
+registry_listing = ["CACHEDIR.TAG", "General"]
+requests = ["GET /artifact/ffd5a7f2f7b63ef413accafeaaea298c49d4d2af 200", "GET /package/21216c6a-2e73-6563-6e65-726566657250/aef1987d90dcc2e2cbd919ad10b2d25bcce4f418 200", "GET /package/692b3bcd-3c85-4b1f-b108-f13ce0eb3210/7204148362dafe5fe6a273f855b8ccbe4df8173e 200", "GET /package/6e34b625-4abd-537c-b88f-471c36dfa7a0/1b96ea4a01afe0ea4090c5c8039690672dd13f2e 200", "GET /registries 200"]
+rundir = "/home/pgeorgakopoulos/wasm-pkg/wt/artifacts/fixtures/baseline/.run-S-artifacts"
+
+[artifacts]
+ffd5a7f2f7b63ef413accafeaaea298c49d4d2af = "ffd5a7f2f7b63ef413accafeaaea298c49d4d2af"
+
+[packages]
+"Bzip2_jll/eIOLw" = "1b96ea4a01afe0ea4090c5c8039690672dd13f2e"
+"JLLWrappers/Kp7TC" = "7204148362dafe5fe6a273f855b8ccbe4df8173e"
+"Preferences/Q68Ah" = "aef1987d90dcc2e2cbd919ad10b2d25bcce4f418"
+
+[path_sources]
+
+[[registries]]
+content_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+dirname = "General"
+name = "General"
+storage = "directory"
+tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+uuid = "23338594-aafe-5451-b93e-139f81909106"
+
+[[steps]]
+requests = ["GET /artifact/ffd5a7f2f7b63ef413accafeaaea298c49d4d2af 200", "GET /package/21216c6a-2e73-6563-6e65-726566657250/aef1987d90dcc2e2cbd919ad10b2d25bcce4f418 200", "GET /package/692b3bcd-3c85-4b1f-b108-f13ce0eb3210/7204148362dafe5fe6a273f855b8ccbe4df8173e 200", "GET /package/6e34b625-4abd-537c-b88f-471c36dfa7a0/1b96ea4a01afe0ea4090c5c8039690672dd13f2e 200", "GET /registries 200"]
+
+    [steps.artifacts]
+    ffd5a7f2f7b63ef413accafeaaea298c49d4d2af = "ffd5a7f2f7b63ef413accafeaaea298c49d4d2af"
+
+    [steps.packages]
+    "Bzip2_jll/eIOLw" = "1b96ea4a01afe0ea4090c5c8039690672dd13f2e"
+    "JLLWrappers/Kp7TC" = "7204148362dafe5fe6a273f855b8ccbe4df8173e"
+    "Preferences/Q68Ah" = "aef1987d90dcc2e2cbd919ad10b2d25bcce4f418"
+
+    [steps.path_sources]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "General"]
+    update_log_keys = ["23338594-aafe-5451-b93e-139f81909106"]
+
+        [[steps.registries.registries]]
+        content_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        dirname = "General"
+        name = "General"
+        storage = "directory"
+        tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        uuid = "23338594-aafe-5451-b93e-139f81909106"
+[[steps]]
+requests = []
+
+    [steps.artifacts]
+    ffd5a7f2f7b63ef413accafeaaea298c49d4d2af = "ffd5a7f2f7b63ef413accafeaaea298c49d4d2af"
+
+    [steps.packages]
+    "Bzip2_jll/eIOLw" = "1b96ea4a01afe0ea4090c5c8039690672dd13f2e"
+    "JLLWrappers/Kp7TC" = "7204148362dafe5fe6a273f855b8ccbe4df8173e"
+    "Preferences/Q68Ah" = "aef1987d90dcc2e2cbd919ad10b2d25bcce4f418"
+
+    [steps.path_sources]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "General"]
+    update_log_keys = ["23338594-aafe-5451-b93e-139f81909106"]
+
+        [[steps.registries.registries]]
+        content_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        dirname = "General"
+        name = "General"
+        storage = "directory"
+        tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        uuid = "23338594-aafe-5451-b93e-139f81909106"
+[[steps]]
+requests = ["GET /artifact/ffd5a7f2f7b63ef413accafeaaea298c49d4d2af 200", "GET /registries 200"]
+
+    [steps.artifacts]
+    ffd5a7f2f7b63ef413accafeaaea298c49d4d2af = "ffd5a7f2f7b63ef413accafeaaea298c49d4d2af"
+
+    [steps.packages]
+    "Bzip2_jll/eIOLw" = "1b96ea4a01afe0ea4090c5c8039690672dd13f2e"
+    "JLLWrappers/Kp7TC" = "7204148362dafe5fe6a273f855b8ccbe4df8173e"
+    "Preferences/Q68Ah" = "aef1987d90dcc2e2cbd919ad10b2d25bcce4f418"
+
+    [steps.path_sources]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "General"]
+    update_log_keys = ["23338594-aafe-5451-b93e-139f81909106"]
+
+        [[steps.registries.registries]]
+        content_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        dirname = "General"
+        name = "General"
+        storage = "directory"
+        tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        uuid = "23338594-aafe-5451-b93e-139f81909106"
+[[steps]]
+requests = []
+
+    [steps.artifacts]
+    ffd5a7f2f7b63ef413accafeaaea298c49d4d2af = "ffd5a7f2f7b63ef413accafeaaea298c49d4d2af"
+
+    [steps.packages]
+    "Bzip2_jll/eIOLw" = "1b96ea4a01afe0ea4090c5c8039690672dd13f2e"
+    "JLLWrappers/Kp7TC" = "7204148362dafe5fe6a273f855b8ccbe4df8173e"
+    "Preferences/Q68Ah" = "aef1987d90dcc2e2cbd919ad10b2d25bcce4f418"
+
+    [steps.path_sources]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "General"]
+    update_log_keys = ["23338594-aafe-5451-b93e-139f81909106"]
+
+        [[steps.registries.registries]]
+        content_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        dirname = "General"
+        name = "General"
+        storage = "directory"
+        tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+        uuid = "23338594-aafe-5451-b93e-139f81909106"
+
+[usage_logs]
+"artifact_usage.toml" = ["<RUN>/depot/packages/Bzip2_jll/eIOLw/Artifacts.toml"]
+"manifest_usage.toml" = ["<RUN>/project/Manifest.toml"]

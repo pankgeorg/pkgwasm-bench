@@ -1,0 +1,7 @@
+[deps]
+Bar = "3fc5ad6e-8a5f-4ce1-9c6c-41c1c0d4a7b2"
+Foo = "7876af07-990d-54b4-ab0e-23690620f79a"
+
+[sources]
+Bar = {rev = "main", subdir = "sub/Bar", url = "file:///home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/git/Foo"}
+Foo = {rev = "v0.1.0", url = "file:///home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/git/Foo"}

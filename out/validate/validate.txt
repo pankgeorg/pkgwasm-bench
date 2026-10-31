@@ -1,0 +1,552 @@
+S-status               stock   exits [0]                   (local baseline)
+S-status               stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-status               native  exits [0]                   EQUIVALENT to stock
+S-status               native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-status               wasm    exits [0]                   EQUIVALENT to stock
+S-status               wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-resolve              stock   exits [0]                   (local baseline)
+S-resolve              stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-resolve              native  exits [0]                   EQUIVALENT to stock
+S-resolve              native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-resolve              wasm    exits [0]                   EQUIVALENT to stock
+S-resolve              wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-rm                   stock   exits [0]                   (local baseline)
+S-rm                   stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-rm                   native  exits [0]                   EQUIVALENT to stock
+S-rm                   native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-rm                   wasm    exits [0]                   EQUIVALENT to stock
+S-rm                   wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-instantiate          stock   exits [0, 0]                (local baseline)
+S-instantiate          stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-instantiate          native  exits [0, 0]                EQUIVALENT to stock
+S-instantiate          native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-instantiate          wasm    exits [0, 0]                EQUIVALENT to stock
+S-instantiate          wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-add                  stock   exits [0]                   (local baseline)
+S-add                  stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-add                  native  exits [0]                   EQUIVALENT to stock
+S-add                  native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-add                  wasm    exits [0]                   EQUIVALENT to stock
+S-add                  wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-fail                 stock   exits [1]                   (local baseline)
+S-fail                 stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-fail                 native  exits [1]                   EQUIVALENT to stock
+S-fail                 native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-fail                 wasm    exits [1]                   EQUIVALENT to stock
+S-fail                 wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-compressed           stock   exits [0, 0, 0, 0]          (local baseline)
+S-compressed           stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-compressed           native  exits [0, 0, 0, 0]          EQUIVALENT to stock
+S-compressed           native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-compressed           wasm    exits [0, 0, 0, 0]          EQUIVALENT to stock
+S-compressed           wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-registry             stock   exits [0, 0, 0, 0, 0, 0]    (local baseline)
+S-registry             stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-registry             native  exits [0, 0, 0, 0, 0, 0]    EQUIVALENT to stock
+S-registry             native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-registry             wasm    exits [0, 0, 0, 0, 0, 0]    EQUIVALENT to stock
+S-registry             wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-registry-compressed  stock   exits [0, 0, 0]             (local baseline)
+S-registry-compressed  stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-registry-compressed  native  exits [0, 0, 0]             EQUIVALENT to stock
+S-registry-compressed  native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-registry-compressed  wasm    exits [0, 0, 0]             EQUIVALENT to stock
+S-registry-compressed  wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-git                  stock   exits [0, 0, 0, 0, 0, 0, 0, 0]  (local baseline)
+S-git                  stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-git                  native  exits [0, 0, 0, 0, 0, 0, 0, 0]  EQUIVALENT to stock
+S-git                  native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-git                  wasm    exits [0, 0, 0, 0, 0, 0, 0, 0]  EQUIVALENT to stock
+S-git                  wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+--- expected
+Updating registry at `<RUN>/depot/registries/General`
+   Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- actual
+Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- expected
+Updating registry at `<RUN>/depot/registries/General`
+   Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- actual
+Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- expected
+Updating registry at `<RUN>/depot/registries/General`
+   Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- actual
+Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- expected
+Updating registry at `<RUN>/depot/registries/General`
+   Resolving package versions...
+   Installed Bzip2_jll ─────── v1.0.9+0
+   Installed Example ───────── v0.5.5
+   Installed JLLWrappers ───── v1.8.0
+   Installed JSON ──────────── v1.13.0
+   Installed Parsers ───────── v3.0.3
+   Installed PrecompileTools ─ v1.3.4
+   Installed Preferences ───── v1.6.1
+   Installed StructUtils ───── v2.11.2
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [682c06a0] + JSON v1.13.0
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [682c06a0] + JSON v1.13.0
+  [69de0a69] + Parsers v3.0.3
+  [aea7be01] + PrecompileTools v1.3.4
+  [21216c6a] + Preferences v1.6.1
+  [ec057cc2] + StructUtils v2.11.2
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [56ddb016] + Logging v1.11.0
+  [de0858da] + Printf v1.11.0
+  [9a3f8284] + Random v1.11.0
+  [ea8e919c] + SHA v1.0.0
+  [fa267f1f] + TOML v1.0.3
+  [cf7118a7] + UUIDs v1.11.0
+  [4ec0a83e] + Unicode v1.11.0
+--- actual
+Resolving package versions...
+   Installed Bzip2_jll ─────── v1.0.9+0
+   Installed Example ───────── v0.5.5
+   Installed JLLWrappers ───── v1.8.0
+   Installed JSON ──────────── v1.13.0
+   Installed Parsers ───────── v3.0.3
+   Installed PrecompileTools ─ v1.3.4
+   Installed Preferences ───── v1.6.1
+   Installed StructUtils ───── v2.11.2
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [682c06a0] + JSON v1.13.0
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [682c06a0] + JSON v1.13.0
+  [69de0a69] + Parsers v3.0.3
+  [aea7be01] + PrecompileTools v1.3.4
+  [21216c6a] + Preferences v1.6.1
+  [ec057cc2] + StructUtils v2.11.2
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [56ddb016] + Logging v1.11.0
+  [de0858da] + Printf v1.11.0
+  [9a3f8284] + Random v1.11.0
+  [ea8e919c] + SHA v1.0.0
+  [fa267f1f] + TOML v1.0.3
+  [cf7118a7] + UUIDs v1.11.0
+  [4ec0a83e] + Unicode v1.11.0
+--- expected
+Updating registry at `<RUN>/depot/registries/General`
+   Resolving package versions...
+   Installed Bzip2_jll ─────── v1.0.9+0
+   Installed Example ───────── v0.5.5
+   Installed JLLWrappers ───── v1.8.0
+   Installed JSON ──────────── v1.13.0
+   Installed Parsers ───────── v3.0.3
+   Installed PrecompileTools ─ v1.3.4
+   Installed Preferences ───── v1.6.1
+   Installed StructUtils ───── v2.11.2
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [682c06a0] + JSON v1.13.0
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [682c06a0] + JSON v1.13.0
+  [69de0a69] + Parsers v3.0.3
+  [aea7be01] + PrecompileTools v1.3.4
+  [21216c6a] + Preferences v1.6.1
+  [ec057cc2] + StructUtils v2.11.2
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [56ddb016] + Logging v1.11.0
+  [de0858da] + Printf v1.11.0
+  [9a3f8284] + Random v1.11.0
+  [ea8e919c] + SHA v1.0.0
+  [fa267f1f] + TOML v1.0.3
+  [cf7118a7] + UUIDs v1.11.0
+  [4ec0a83e] + Unicode v1.11.0
+--- actual
+Resolving package versions...
+   Installed Bzip2_jll ─────── v1.0.9+0
+   Installed Example ───────── v0.5.5
+   Installed JLLWrappers ───── v1.8.0
+   Installed JSON ──────────── v1.13.0
+   Installed Parsers ───────── v3.0.3
+   Installed PrecompileTools ─ v1.3.4
+   Installed Preferences ───── v1.6.1
+   Installed StructUtils ───── v2.11.2
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [682c06a0] + JSON v1.13.0
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [682c06a0] + JSON v1.13.0
+  [69de0a69] + Parsers v3.0.3
+  [aea7be01] + PrecompileTools v1.3.4
+  [21216c6a] + Preferences v1.6.1
+  [ec057cc2] + StructUtils v2.11.2
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [56ddb016] + Logging v1.11.0
+  [de0858da] + Printf v1.11.0
+  [9a3f8284] + Random v1.11.0
+  [ea8e919c] + SHA v1.0.0
+  [fa267f1f] + TOML v1.0.3
+  [cf7118a7] + UUIDs v1.11.0
+  [4ec0a83e] + Unicode v1.11.0
+--- expected
+Updating registry at `<RUN>/depot/registries/General`
+   Resolving package versions...
+   Installed Bzip2_jll ─────── v1.0.9+0
+   Installed Example ───────── v0.5.5
+   Installed JLLWrappers ───── v1.8.0
+   Installed JSON ──────────── v1.13.0
+   Installed Parsers ───────── v3.0.3
+   Installed PrecompileTools ─ v1.3.4
+   Installed Preferences ───── v1.6.1
+   Installed StructUtils ───── v2.11.2
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [682c06a0] + JSON v1.13.0
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [682c06a0] + JSON v1.13.0
+  [69de0a69] + Parsers v3.0.3
+  [aea7be01] + PrecompileTools v1.3.4
+  [21216c6a] + Preferences v1.6.1
+  [ec057cc2] + StructUtils v2.11.2
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [56ddb016] + Logging v1.11.0
+  [de0858da] + Printf v1.11.0
+  [9a3f8284] + Random v1.11.0
+  [ea8e919c] + SHA v1.0.0
+  [fa267f1f] + TOML v1.0.3
+  [cf7118a7] + UUIDs v1.11.0
+  [4ec0a83e] + Unicode v1.11.0
+--- actual
+Resolving package versions...
+   Installed Bzip2_jll ─────── v1.0.9+0
+   Installed Example ───────── v0.5.5
+   Installed JLLWrappers ───── v1.8.0
+   Installed JSON ──────────── v1.13.0
+   Installed Parsers ───────── v3.0.3
+   Installed PrecompileTools ─ v1.3.4
+   Installed Preferences ───── v1.6.1
+   Installed StructUtils ───── v2.11.2
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [682c06a0] + JSON v1.13.0
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [682c06a0] + JSON v1.13.0
+  [69de0a69] + Parsers v3.0.3
+  [aea7be01] + PrecompileTools v1.3.4
+  [21216c6a] + Preferences v1.6.1
+  [ec057cc2] + StructUtils v2.11.2
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [56ddb016] + Logging v1.11.0
+  [de0858da] + Printf v1.11.0
+  [9a3f8284] + Random v1.11.0
+  [ea8e919c] + SHA v1.0.0
+  [fa267f1f] + TOML v1.0.3
+  [cf7118a7] + UUIDs v1.11.0
+  [4ec0a83e] + Unicode v1.11.0
+--- expected
+Updating registry at `<RUN>/depot/registries/General`
+   Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed Example ───── v0.5.5
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- actual
+Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed Example ───── v0.5.5
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- expected
+Updating registry at `<RUN>/depot/registries/General`
+   Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed Example ───── v0.5.5
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- actual
+Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed Example ───── v0.5.5
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- expected
+Updating registry at `<RUN>/depot/registries/General`
+   Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed Example ───── v0.5.5
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+--- actual
+Resolving package versions...
+   Installed Bzip2_jll ─── v1.0.9+0
+   Installed Example ───── v0.5.5
+   Installed JLLWrappers ─ v1.8.0
+   Installed Preferences ─ v1.6.1
+  Installing 1 artifacts
+   Installed artifact Bzip2 184.7 KiB
+    Updating `<RUN>/project/Project.toml`
+  [7876af07] + Example v0.5.5
+  [6e34b625] + Bzip2_jll v1.0.9+0
+    Updating `<RUN>/project/Manifest.toml`
+  [7876af07] + Example v0.5.5
+  [692b3bcd] + JLLWrappers v1.8.0
+  [21216c6a] + Preferences v1.6.1
+  [6e34b625] + Bzip2_jll v1.0.9+0
+  [56f22d72] + Artifacts v1.11.0
+  [ade2ca70] + Dates v1.11.0
+  [8f399da3] + Libdl v1.11.0
+  [de0858da] + Printf v1.11.0
+  [fa267f1f] + TOML v1.0.3
+  [4ec0a83e] + Unicode v1.11.0
+S-artifacts            stock   exits [0, 0, 0, 0]          (local baseline)
+S-artifacts            stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-artifacts            native  exits [0, 0, 0, 0]          EQUIVALENT to stock
+S-artifacts            native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-artifacts            wasm    exits [0, 0, 0, 0]          EQUIVALENT to stock
+S-artifacts            wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-gc                   stock   exits [0, 0, 0, 0, 0]       (local baseline)
+S-gc                   stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-gc                   native  exits [0, 0, 0, 0, 0]       EQUIVALENT to stock
+S-gc                   native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-gc                   wasm    exits [0, 0, 0, 0, 0]       EQUIVALENT to stock
+S-gc                   wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-gc-auto              stock   exits [0, 0, 0]             (local baseline)
+S-gc-auto              stock   vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-gc-auto              native  exits [0, 0, 0]             EQUIVALENT to stock
+S-gc-auto              native  vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+S-gc-auto              wasm    exits [0, 0, 0]             EQUIVALENT to stock
+S-gc-auto              wasm    vs fixtures/baseline (aarch64, 1.13.2): EQUIVALENT
+M4-cold                stock   exits [0]                   (local baseline)
+M4-cold                native  exits [0]                   EQUIVALENT to stock
+M4-cold                wasm    exits [0]                   EQUIVALENT to stock
+M4-warm                stock   exits [0]                   (local baseline)
+M4-warm                native  exits [0]                   EQUIVALENT to stock
+M4-warm                wasm    exits [0]                   EQUIVALENT to stock
+M4-noop                stock   exits [0]                   (local baseline)
+M4-noop                native  exits [0]                   EQUIVALENT to stock
+M4-noop                wasm    exits [0]                   EQUIVALENT to stock

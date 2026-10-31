@@ -1,0 +1,16 @@
+"M4-cold/wasm-O3" = true
+"M4-noop/wasm-O3" = true
+"M4-warm/wasm-O3" = true
+"S-add/wasm-O3" = true
+"S-artifacts/wasm-O3" = true
+"S-compressed/wasm-O3" = true
+"S-fail/wasm-O3" = true
+"S-gc-auto/wasm-O3" = true
+"S-gc/wasm-O3" = true
+"S-git/wasm-O3" = true
+"S-instantiate/wasm-O3" = true
+"S-registry-compressed/wasm-O3" = true
+"S-registry/wasm-O3" = true
+"S-resolve/wasm-O3" = true
+"S-rm/wasm-O3" = true
+"S-status/wasm-O3" = true

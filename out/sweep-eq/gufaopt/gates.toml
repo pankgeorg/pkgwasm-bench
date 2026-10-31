@@ -1,0 +1,16 @@
+"M4-cold/wasm-gufaopt" = true
+"M4-noop/wasm-gufaopt" = true
+"M4-warm/wasm-gufaopt" = true
+"S-add/wasm-gufaopt" = true
+"S-artifacts/wasm-gufaopt" = true
+"S-compressed/wasm-gufaopt" = true
+"S-fail/wasm-gufaopt" = true
+"S-gc-auto/wasm-gufaopt" = true
+"S-gc/wasm-gufaopt" = true
+"S-git/wasm-gufaopt" = true
+"S-instantiate/wasm-gufaopt" = true
+"S-registry-compressed/wasm-gufaopt" = true
+"S-registry/wasm-gufaopt" = true
+"S-resolve/wasm-gufaopt" = true
+"S-rm/wasm-gufaopt" = true
+"S-status/wasm-gufaopt" = true

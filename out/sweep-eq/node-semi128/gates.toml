@@ -1,0 +1,16 @@
+"M4-cold/wasm-node-semi128" = true
+"M4-noop/wasm-node-semi128" = true
+"M4-warm/wasm-node-semi128" = true
+"S-add/wasm-node-semi128" = true
+"S-artifacts/wasm-node-semi128" = true
+"S-compressed/wasm-node-semi128" = true
+"S-fail/wasm-node-semi128" = true
+"S-gc-auto/wasm-node-semi128" = true
+"S-gc/wasm-node-semi128" = true
+"S-git/wasm-node-semi128" = true
+"S-instantiate/wasm-node-semi128" = true
+"S-registry-compressed/wasm-node-semi128" = true
+"S-registry/wasm-node-semi128" = true
+"S-resolve/wasm-node-semi128" = true
+"S-rm/wasm-node-semi128" = true
+"S-status/wasm-node-semi128" = true

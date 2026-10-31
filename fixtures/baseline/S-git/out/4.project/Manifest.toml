@@ -1,0 +1,12 @@
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.13.2"
+manifest_format = "2.1"
+project_hash = "84907b19ac9d4114779c1cd598b70d87e0dda47c"
+
+[[deps.Foo]]
+git-tree-sha1 = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+repo-rev = "v0.1.0"
+repo-url = "file:///home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/git/Foo"
+uuid = "7876af07-990d-54b4-ab0e-23690620f79a"
+version = "0.1.0"

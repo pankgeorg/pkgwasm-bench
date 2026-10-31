@@ -1,0 +1,38 @@
+# Frozen inputs for PkgWasm equivalence (PLAN.md §4, M5.1). Owner: L5 e2e.
+# Recorded 2026-10-28T15:30Z from https://pkg.julialang.org/registries
+# (redirected to eu-central.pkg.julialang.org).
+
+# Upstream used only to fill fixtures/cache; runs go through runner/pkgserver.mjs,
+# which serves /registries with exactly the registry below.
+server = "https://pkg.julialang.org"
+
+registry_name = "General"
+registry_uuid = "23338594-aafe-5451-b93e-139f81909106"
+registry_tree_hash = "bf156f1d33580ac1fadbb60976e2a8577a66ed42"
+
+julia_version = "1.13.2"
+# Pkg shipped with 1.13.2 (src/ identical to the PkgWasm fork base)
+pkg_commit = "7640639"
+# Host platform of the native baselines (Base.BinaryPlatforms.triplet(HostPlatform()))
+platform_triplet = "aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version+1.13.2"
+
+# Tags of platform_triplet (Base.BinaryPlatforms.tags), for the Wasm runner's
+# --platform-from-frozen (PLAN D13, ABI v3 julia_io.host_platform): the module answers
+# HostPlatform() from these, so its Julia-System header matches the baselines'.
+# julia_version is omitted: the module adds its own VERSION.
+[platform_tags]
+arch = "aarch64"
+os = "linux"
+libc = "glibc"
+libgfortran_version = "5.0.0"
+cxxstring_abi = "cxx11"
+libstdcxx_version = "3.4.30"
+
+# Environment policy applied identically to native and Wasm runs (runner/scenarios.jl).
+# JULIA_PKG_SERVER is set per run to the local frozen server URL.
+[env]
+JULIA_PKG_PRECOMPILE_AUTO = "0"
+JULIA_PKG_GC_AUTO = "false"
+JULIA_PKG_USE_CLI_GIT = "false"
+# resolver defaults: JULIA_PKG_RESOLVE_MAX_TIME, JULIA_PKG_RESOLVE_ACCURACY,
+# JULIA_PKG_SERVER_REGISTRY_PREFERENCE and JULIA_PKG_UNPACK_REGISTRY are left unset (stock defaults).

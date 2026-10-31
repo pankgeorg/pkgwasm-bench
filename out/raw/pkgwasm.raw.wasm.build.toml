@@ -1,0 +1,64 @@
+cache_poison_root = "/home/pgeorgakopoulos/pkgwasm-bench/out/relocation-cache"
+date = "2026-10-30T21:59:24"
+diagnostics = []
+diagnostics_count = 0
+elapsed_s = 360.4
+embedded_host_strings = ["/home/pgeorgakopoulos", "/home/pgeorgakopoulos/pkgwasm-bench/"]
+error = ""
+exports = ["memory:memory", "pkgwasm_abi_version:function", "pkgwasm_init:function", "pkgwasm_main:function"]
+host_markers = ["pkgwasm-sentinel", "/home/pgeorgakopoulos/pkgwasm-bench/", "/home/pgeorgakopoulos/pkgwasm-bench/out/raw/build-env", "/home/pgeorgakopoulos/solverlink/julia/julia-1.13.2/bin", "/home/pgeorgakopoulos", "/home/pgeorgakopoulos/pkgwasm-bench/out/sentinel/home", "/home/pgeorgakopoulos/pkgwasm-bench/depot/raw", "/home/pgeorgakopoulos/wasm-pkg/env/depot/shared", "/home/pgeorgakopoulos/solverlink/depot", "/home/pgeorgakopoulos/solverlink/julia/julia-1.13.2/local/share/julia", "/home/pgeorgakopoulos/solverlink/julia/julia-1.13.2/share/julia", "/home/pgeorgakopoulos/pkgwasm-bench/out/sentinel/depot"]
+imports = ["wasi_snapshot_preview1.random_get:function", "wasi_snapshot_preview1.args_sizes_get:function", "wasi_snapshot_preview1.args_get:function", "wasi_snapshot_preview1.environ_sizes_get:function", "wasi_snapshot_preview1.environ_get:function", "wasi_snapshot_preview1.fd_prestat_get:function", "julia_io.host_platform:function", "wasi_snapshot_preview1.fd_close:function", "wasi_snapshot_preview1.fd_prestat_dir_name:function", "julia_io.errmsg:function", "wasi_snapshot_preview1.fd_write:function", "wasi_snapshot_preview1.clock_time_get:function", "wasi_snapshot_preview1.path_filestat_get:function", "wasi_snapshot_preview1.path_create_directory:function", "julia_io.close:function", "julia_io.path_mode:function", "julia_io.path_chmod:function", "julia_io.timer_start:function", "wasi_snapshot_preview1.fd_filestat_get:function", "wasi_snapshot_preview1.fd_seek:function", "julia_io.proc_pipe:function", "julia_io.proc_status:function", "julia_regex.subject:function", "julia_regex.errmsg:function", "julia_regex.match:function", "julia_io.poll:function", "wasi_snapshot_preview1.path_remove_directory:function", "wasi_snapshot_preview1.fd_fdstat_get:function", "wasi_snapshot_preview1.path_open:function", "wasi_snapshot_preview1.fd_read:function", "julia_regex.compile:function", "wasi_snapshot_preview1.path_readlink:function", "julia_io.cancel:function", "wasi_snapshot_preview1.path_unlink_file:function", "julia_io.spawn:function", "julia_io.read:function", "wasi_snapshot_preview1.fd_readdir:function", "julia_io.http_start:function", "julia_io.http_head:function", "julia_io.decompress:function", "wasi_snapshot_preview1.path_rename:function", "julia_io.path_symlink:function"]
+julia = "1.13.2"
+maxrss_mib = 1659.8
+pkgwasm_target = "wasm"
+poison_markers = ["DECOY registry from the build host", "decoy-General.git", "pkgwasm-sentinel.invalid/Example.jl", "/home/pgeorgakopoulos/pkgwasm-bench/out/relocation-cache/depot/registries/General"]
+poison_strings_found = []
+poisoned = ["REGISTRY_CACHE: decoy General (1 entries)", "UPDATED_REGISTRY_THIS_SESSION = true", "OFFLINE_MODE = true"]
+pre_image_hooks = ["WasmCodegen.Runtime.sanitize_base_globals!", "PkgWasm.sanitize_globals!"]
+size_bytes = 10073679
+status = "ok"
+verifier_errors = 0
+verifier_report_bytes = 0
+verifier_report_file = "/home/pgeorgakopoulos/pkgwasm-bench/out/raw/pkgwasm.raw.wasm.verifier.txt"
+verifier_report_head = ""
+verifier_warnings = 0
+
+[config]
+optimize = false
+tasks = "none"
+trim = "unsafe"
+verify = "warn"
+
+[inputs]
+patches = ["/home/pgeorgakopoulos/pkgwasm-bench/runner/patches/pkgwasm-host.jl"]
+
+    [inputs.pkgwasm]
+    commit = "9fe2f5ab458abba7b4d4f3de4aa86e64f97d67b5"
+    dirty = false
+    path = "/home/pgeorgakopoulos/pkgwasm-bench/src/PkgWasm.jl"
+
+    [inputs.runner]
+    commit = "c83c3d8bf8d58656c75d04d8fd7b2d1133970a7a"
+    dirty = true
+    path = "/home/pgeorgakopoulos/pkgwasm-bench/runner"
+
+    [inputs.wasmbuilder]
+    commit = "4b64c589478e8769209a3870488f65c77a751f6c"
+    dirty = false
+    path = "/home/pgeorgakopoulos/pkgwasm-bench/src/WasmBuilder.jl"
+
+    [inputs.wasmcodegen]
+    commit = "5d4b68e0d5eba32ee901d06e81c525efaa2d8666"
+    dirty = false
+    path = "/home/pgeorgakopoulos/pkgwasm-bench/src/WasmCodegen.jl"
+
+[sentinels]
+HOME = "/home/pgeorgakopoulos/pkgwasm-bench/out/sentinel/home"
+JULIA_DEPOT_PATH = "/home/pgeorgakopoulos/pkgwasm-bench/out/sentinel/depot"
+JULIA_PKG_GC_AUTO = "true"
+JULIA_PKG_OFFLINE = "true"
+JULIA_PKG_PRECOMPILE_AUTO = "1"
+JULIA_PKG_SERVER = "http://pkgwasm-sentinel.invalid"
+JULIA_PROJECT = "/home/pgeorgakopoulos/pkgwasm-bench/out/sentinel/project"
+PWD = "/home/pgeorgakopoulos/pkgwasm-bench/out/sentinel/cwd"
+TMPDIR = "/home/pgeorgakopoulos/pkgwasm-bench/out/sentinel/tmp"

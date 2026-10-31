@@ -1,0 +1,646 @@
+label,round,case,cmd,args,impl,wall_s,maxrss_kib,exit,equivalent,load1,other_scopes,compile_ms,instantiate_ms,init_ms,main_ms
+S-status,1,S-status,1,status,stock,1.5290,380480,0,true,15.30,0,,,,
+S-status,1,S-status,1,status,native,71.1931,1230412,0,true,15.30,0,,,,
+S-status,1,S-status,1,status,wasm,1.3719,628624,0,true,15.58,0,33.86122499999999,16.44324800000001,56.299972999999994,442.14014499999996
+S-status,2,S-status,1,status,wasm,1.3931,627688,0,true,15.43,0,30.642631999999992,17.097053999999986,56.603496999999976,429.64973900000007
+S-status,2,S-status,1,status,stock,1.5021,381032,0,true,15.37,0,,,,
+S-status,2,S-status,1,status,native,71.3951,1228600,0,true,15.54,0,,,,
+S-status,3,S-status,1,status,native,71.0706,1231568,0,true,15.18,0,,,,
+S-status,3,S-status,1,status,wasm,1.4016,627448,0,true,16.65,0,32.31424899999999,16.100244000000004,55.574127000000004,438.13218600000005
+S-status,3,S-status,1,status,stock,1.4995,380704,0,true,17.31,0,,,,
+S-status,4,S-status,1,status,stock,1.4815,380660,0,true,17.59,0,,,,
+S-status,4,S-status,1,status,native,71.6083,1230364,0,true,17.91,0,,,,
+S-status,4,S-status,1,status,wasm,1.4215,619460,0,true,18.94,0,31.824364000000003,16.600768999999985,58.67751900000002,449.63498300000003
+S-status,5,S-status,1,status,wasm,1.3849,620868,0,true,19.47,0,32.177768,16.154604000000006,57.75826900000001,438.066905
+S-status,5,S-status,1,status,stock,1.4818,380556,0,true,19.08,0,,,,
+S-status,5,S-status,1,status,native,71.9839,1230216,0,true,19.44,0,,,,
+S-resolve,1,S-resolve,1,resolve,stock,1.9985,387364,0,true,18.14,0,,,,
+S-resolve,1,S-resolve,1,resolve,native,70.6978,1232236,0,true,19.05,0,,,,
+S-resolve,1,S-resolve,1,resolve,wasm,1.4637,621600,0,true,17.93,0,30.710513000000006,18.660589999999985,55.047162000000014,629.895582
+S-resolve,2,S-resolve,1,resolve,wasm,1.4659,629208,0,true,17.79,0,30.292269000000005,15.851641999999998,54.63315700000001,625.8589810000001
+S-resolve,2,S-resolve,1,resolve,stock,2.0226,387384,0,true,18.16,0,,,,
+S-resolve,2,S-resolve,1,resolve,native,71.2097,1231680,0,true,18.05,0,,,,
+S-resolve,3,S-resolve,1,resolve,native,70.8063,1230524,0,true,15.78,0,,,,
+S-resolve,3,S-resolve,1,resolve,wasm,1.4245,764164,0,true,19.51,0,32.126127999999994,17.031932999999995,57.491506000000015,598.5176630000001
+S-resolve,3,S-resolve,1,resolve,stock,1.9617,387648,0,true,18.98,0,,,,
+S-resolve,4,S-resolve,1,resolve,stock,1.9808,388060,0,true,18.00,0,,,,
+S-resolve,4,S-resolve,1,resolve,native,70.4811,1237644,0,true,17.97,0,,,,
+S-resolve,4,S-resolve,1,resolve,wasm,1.4981,628876,0,true,17.40,0,31.465441000000013,16.161204999999995,56.650698000000006,633.1485359999999
+S-resolve,5,S-resolve,1,resolve,wasm,1.4427,630292,0,true,17.73,0,38.06554800000001,17.342377,59.91345000000001,627.874202
+S-resolve,5,S-resolve,1,resolve,stock,1.9903,387380,0,true,17.74,0,,,,
+S-resolve,5,S-resolve,1,resolve,native,71.0199,1231336,0,true,18.78,0,,,,
+S-rm,1,S-rm,1,rm JSON,stock,2.2357,384300,0,true,16.99,0,,,,
+S-rm,1,S-rm,1,rm JSON,native,72.1156,1229916,0,true,16.73,0,,,,
+S-rm,1,S-rm,1,rm JSON,wasm,1.5041,615196,0,true,16.28,0,34.61779399999999,17.031173999999993,57.51114900000002,507.097394
+S-rm,2,S-rm,1,rm JSON,wasm,1.5295,619576,0,true,16.27,0,31.861846,16.73269099999999,60.927064,513.700021
+S-rm,2,S-rm,1,rm JSON,stock,2.2014,385120,0,true,16.06,0,,,,
+S-rm,2,S-rm,1,rm JSON,native,72.3749,1227940,0,true,15.66,0,,,,
+S-rm,3,S-rm,1,rm JSON,native,72.1411,1233360,0,true,17.45,0,,,,
+S-rm,3,S-rm,1,rm JSON,wasm,1.4404,625544,0,true,18.56,0,32.501611999999994,16.522209000000004,56.96854300000001,490.37677699999995
+S-rm,3,S-rm,1,rm JSON,stock,2.1817,383860,0,true,18.40,0,,,,
+S-rm,4,S-rm,1,rm JSON,stock,2.2245,384520,0,true,17.72,0,,,,
+S-rm,4,S-rm,1,rm JSON,native,72.7026,1232300,0,true,18.82,0,,,,
+S-rm,4,S-rm,1,rm JSON,wasm,1.5167,625864,0,true,16.93,0,31.998166999999995,16.670569999999998,59.569969000000015,510.972705
+S-rm,5,S-rm,1,rm JSON,wasm,1.6059,617044,0,true,16.56,0,36.00128799999999,16.49260800000002,61.94143299999999,498.20201499999996
+S-rm,5,S-rm,1,rm JSON,stock,2.1971,383808,0,true,16.23,0,,,,
+S-rm,5,S-rm,1,rm JSON,native,72.0195,1231068,0,true,16.18,0,,,,
+S-instantiate,1,S-instantiate,1,instantiate,stock,2.6228,390128,0,true,15.43,0,,,,
+S-instantiate,1,S-instantiate,2,instantiate,stock,1.5244,379920,0,true,15.23,0,,,,
+S-instantiate,1,S-instantiate,1,instantiate,native,70.9228,1229256,0,true,15.48,0,,,,
+S-instantiate,1,S-instantiate,2,instantiate,native,66.8571,1227948,0,true,15.16,0,,,,
+S-instantiate,1,S-instantiate,1,instantiate,wasm,1.3734,733888,0,true,14.68,0,30.113428000000013,16.36752800000002,56.62629899999999,1011.08889
+S-instantiate,1,S-instantiate,2,instantiate,wasm,1.0950,627152,0,true,14.87,0,31.918366000000006,16.027124,54.388555999999994,404.42225200000007
+S-instantiate,2,S-instantiate,1,instantiate,wasm,1.3877,733856,0,true,14.58,0,31.245959,15.935483000000005,55.581288,1034.962574
+S-instantiate,2,S-instantiate,2,instantiate,wasm,1.1591,633928,0,true,14.61,0,33.42974199999999,16.81337099999999,56.63693799999999,411.499764
+S-instantiate,2,S-instantiate,1,instantiate,stock,2.6300,389552,0,true,14.85,0,,,,
+S-instantiate,2,S-instantiate,2,instantiate,stock,1.5222,380096,0,true,14.78,0,,,,
+S-instantiate,2,S-instantiate,1,instantiate,native,71.0621,1230124,0,true,14.65,0,,,,
+S-instantiate,2,S-instantiate,2,instantiate,native,66.7990,1230436,0,true,14.94,0,,,,
+S-instantiate,3,S-instantiate,1,instantiate,native,70.9216,1231980,0,true,14.33,0,,,,
+S-instantiate,3,S-instantiate,2,instantiate,native,66.3798,1231320,0,true,15.38,0,,,,
+S-instantiate,3,S-instantiate,1,instantiate,wasm,1.3398,730816,0,true,16.74,0,33.748225000000005,16.49956899999998,56.993461999999994,987.905408
+S-instantiate,3,S-instantiate,2,instantiate,wasm,1.1450,627912,0,true,16.52,0,28.947456000000003,16.10056399999999,56.781620000000004,395.28195600000004
+S-instantiate,3,S-instantiate,1,instantiate,stock,2.6570,390868,0,true,16.72,0,,,,
+S-instantiate,3,S-instantiate,2,instantiate,stock,1.5335,379336,0,true,16.75,0,,,,
+S-instantiate,4,S-instantiate,1,instantiate,stock,2.6303,390864,0,true,16.72,0,,,,
+S-instantiate,4,S-instantiate,2,instantiate,stock,1.5200,379896,0,true,16.91,0,,,,
+S-instantiate,4,S-instantiate,1,instantiate,native,70.2045,1227068,0,true,17.36,0,,,,
+S-instantiate,4,S-instantiate,2,instantiate,native,61.4405,1208820,0,true,13.34,0,,,,
+S-instantiate,4,S-instantiate,1,instantiate,wasm,1.3042,748180,0,true,6.86,0,33.522622,16.311767000000003,52.10717199999999,984.064607
+S-instantiate,4,S-instantiate,2,instantiate,wasm,1.1296,645220,0,true,6.86,0,29.909824999999998,16.059763999999987,52.491735999999975,405.590861
+S-instantiate,5,S-instantiate,1,instantiate,wasm,1.3051,734576,0,true,6.03,0,35.650204,16.290726000000006,52.712537999999995,978.189867
+S-instantiate,5,S-instantiate,2,instantiate,wasm,1.1374,634788,0,true,5.79,0,32.308769999999996,18.701391,53.21810300000001,413.43046
+S-instantiate,5,S-instantiate,1,instantiate,stock,2.4113,390268,0,true,5.13,0,,,,
+S-instantiate,5,S-instantiate,2,instantiate,stock,1.4122,379836,0,true,4.88,0,,,,
+S-instantiate,5,S-instantiate,1,instantiate,native,64.9842,1217340,0,true,5.00,0,,,,
+S-instantiate,5,S-instantiate,2,instantiate,native,60.1577,1211240,0,true,3.82,0,,,,
+S-add,1,S-add,1,add Example JSON,stock,5.7317,623592,0,true,3.50,0,,,,
+S-add,1,S-add,1,add Example JSON,native,76.9480,1319020,0,true,3.24,0,,,,
+S-add,1,S-add,1,add Example JSON,wasm,15.5781,990020,0,true,4.12,0,30.088987000000003,15.81800100000001,54.469716000000005,15083.414566
+S-add,2,S-add,1,add Example JSON,wasm,15.6558,1046552,0,true,4.40,0,30.918115999999998,15.720680000000002,53.871189999999984,15169.14416
+S-add,2,S-add,1,add Example JSON,stock,5.6377,617036,0,true,4.26,0,,,,
+S-add,2,S-add,1,add Example JSON,native,76.0971,1324244,0,true,3.99,0,,,,
+S-add,3,S-add,1,add Example JSON,native,75.6950,1317372,0,true,4.30,0,,,,
+S-add,3,S-add,1,add Example JSON,wasm,15.6081,1049412,0,true,3.73,0,30.852795,16.025082999999995,54.434995999999984,15109.131017
+S-add,3,S-add,1,add Example JSON,stock,5.6607,613944,0,true,4.11,0,,,,
+S-add,4,S-add,1,add Example JSON,stock,5.7120,610912,0,true,3.71,0,,,,
+S-add,4,S-add,1,add Example JSON,native,75.5697,1319716,0,true,3.65,0,,,,
+S-add,4,S-add,1,add Example JSON,wasm,15.6021,994312,0,true,3.61,0,32.491091,16.17212500000001,53.61814699999999,15117.68462
+S-add,5,S-add,1,add Example JSON,wasm,15.4734,991688,0,true,5.25,0,34.26835000000001,16.195446000000004,55.90001099999998,14980.71326
+S-add,5,S-add,1,add Example JSON,stock,5.6868,619512,0,true,4.74,0,,,,
+S-add,5,S-add,1,add Example JSON,native,75.1125,1318432,0,true,4.46,0,,,,
+S-fail,1,S-fail,1,add NoSuchPkg,stock,1.6507,390528,1,true,2.81,0,,,,
+S-fail,1,S-fail,1,add NoSuchPkg,native,65.5541,1207804,1,true,3.12,0,,,,
+S-fail,1,S-fail,1,add NoSuchPkg,wasm,1.0325,205084,1,true,5.43,0,32.42680800000001,16.08304299999999,54.457671000000005,694.853718
+S-fail,2,S-fail,1,add NoSuchPkg,wasm,1.0156,290748,1,true,5.43,0,33.80130299999999,16.340046,53.36362,684.925658
+S-fail,2,S-fail,1,add NoSuchPkg,stock,1.6001,391892,1,true,5.46,0,,,,
+S-fail,2,S-fail,1,add NoSuchPkg,native,65.6137,1210064,1,true,6.10,0,,,,
+S-fail,3,S-fail,1,add NoSuchPkg,native,65.8815,1211864,1,true,4.97,0,,,,
+S-fail,3,S-fail,1,add NoSuchPkg,wasm,1.0280,202960,1,true,4.59,0,30.213187000000005,16.536888000000005,55.188320000000004,692.373986
+S-fail,3,S-fail,1,add NoSuchPkg,stock,1.6034,392112,1,true,4.38,0,,,,
+S-fail,4,S-fail,1,add NoSuchPkg,stock,1.5907,390524,1,true,4.19,0,,,,
+S-fail,4,S-fail,1,add NoSuchPkg,native,65.3017,1208704,1,true,3.78,0,,,,
+S-fail,4,S-fail,1,add NoSuchPkg,wasm,0.9919,197736,1,true,3.07,0,32.94101499999999,19.214995999999985,50.87207700000002,673.624881
+S-fail,5,S-fail,1,add NoSuchPkg,wasm,0.9782,203204,1,true,3.13,0,31.293558000000004,15.649198999999996,51.63680400000001,667.2926970000001
+S-fail,5,S-fail,1,add NoSuchPkg,stock,1.6262,391296,1,true,3.12,0,,,,
+S-fail,5,S-fail,1,add NoSuchPkg,native,66.7160,1217436,1,true,3.61,0,,,,
+S-compressed,1,S-compressed,1,status,stock,1.7171,395444,0,true,4.24,0,,,,
+S-compressed,1,S-compressed,2,resolve,stock,3.9782,603128,0,true,4.54,0,,,,
+S-compressed,1,S-compressed,3,rm JSON,stock,2.3404,398828,0,true,4.34,0,,,,
+S-compressed,1,S-compressed,4,add JSON,stock,4.5642,624428,0,true,4.34,0,,,,
+S-compressed,1,S-compressed,1,status,native,65.3569,1218888,0,true,3.89,0,,,,
+S-compressed,1,S-compressed,2,resolve,native,66.2482,1316432,0,true,2.83,0,,,,
+S-compressed,1,S-compressed,3,rm JSON,native,65.6238,1219272,0,true,3.96,0,,,,
+S-compressed,1,S-compressed,4,add JSON,native,71.7702,1301248,0,true,3.08,0,,,,
+S-compressed,1,S-compressed,1,status,wasm,2.4875,689240,0,true,2.87,0,32.28172900000001,16.247566000000006,53.798907000000014,1523.980347
+S-compressed,1,S-compressed,2,resolve,wasm,11.2572,920888,0,true,2.87,0,30.141587,16.929211999999993,51.084599999999995,10784.269735
+S-compressed,1,S-compressed,3,rm JSON,wasm,1.6380,617680,0,true,3.11,0,35.940326,15.711239000000006,52.384533000000005,677.249012
+S-compressed,1,S-compressed,4,add JSON,wasm,11.3051,826196,0,true,3.11,0,31.557440999999997,15.973002999999991,51.74860699999999,10854.270293
+S-compressed,2,S-compressed,1,status,wasm,2.4275,681320,0,true,3.08,0,32.01480600000001,15.813360999999986,51.122321,1470.454884
+S-compressed,2,S-compressed,2,resolve,wasm,11.3319,822616,0,true,3.15,0,26.150426999999993,16.332605999999984,52.970218999999986,10857.975256
+S-compressed,2,S-compressed,3,rm JSON,wasm,1.6191,623520,0,true,3.28,0,32.41817,16.097564000000006,53.187382000000014,670.726586
+S-compressed,2,S-compressed,4,add JSON,wasm,11.3784,838368,0,true,3.26,0,33.211178000000004,20.513728999999998,53.545904999999976,10913.172903
+S-compressed,2,S-compressed,1,status,stock,1.6951,393328,0,true,3.35,0,,,,
+S-compressed,2,S-compressed,2,resolve,stock,4.0234,602936,0,true,3.35,0,,,,
+S-compressed,2,S-compressed,3,rm JSON,stock,2.3257,400464,0,true,3.33,0,,,,
+S-compressed,2,S-compressed,4,add JSON,stock,4.5183,622500,0,true,3.30,0,,,,
+S-compressed,2,S-compressed,1,status,native,65.3475,1217908,0,true,3.36,0,,,,
+S-compressed,2,S-compressed,2,resolve,native,65.8585,1318268,0,true,4.84,0,,,,
+S-compressed,2,S-compressed,3,rm JSON,native,65.5726,1218568,0,true,4.18,0,,,,
+S-compressed,2,S-compressed,4,add JSON,native,72.0215,1303056,0,true,3.82,0,,,,
+S-compressed,3,S-compressed,1,status,native,64.8643,1217600,0,true,4.99,0,,,,
+S-compressed,3,S-compressed,2,resolve,native,66.5495,1319632,0,true,4.36,0,,,,
+S-compressed,3,S-compressed,3,rm JSON,native,66.7970,1238316,0,true,4.22,0,,,,
+S-compressed,3,S-compressed,4,add JSON,native,74.0646,1306580,0,true,5.49,0,,,,
+S-compressed,3,S-compressed,1,status,wasm,2.4599,684280,0,true,5.31,0,33.29401899999999,15.923442000000009,52.347734,1504.442965
+S-compressed,3,S-compressed,2,resolve,wasm,11.1754,814652,0,true,5.31,0,30.069025999999994,18.100424000000018,51.0412,10721.937221
+S-compressed,3,S-compressed,3,rm JSON,wasm,1.6358,618340,0,true,4.87,0,30.591630999999992,15.794840999999991,52.62001600000002,679.6864029999999
+S-compressed,3,S-compressed,4,add JSON,wasm,11.4165,843104,0,true,4.87,0,31.552480999999986,16.45172699999999,56.607697,10942.917354000001
+S-compressed,3,S-compressed,1,status,stock,1.6923,394228,0,true,4.99,0,,,,
+S-compressed,3,S-compressed,2,resolve,stock,4.0219,601588,0,true,4.99,0,,,,
+S-compressed,3,S-compressed,3,rm JSON,stock,2.3721,400092,0,true,5.31,0,,,,
+S-compressed,3,S-compressed,4,add JSON,stock,4.7187,622396,0,true,5.31,0,,,,
+S-compressed,4,S-compressed,1,status,stock,1.7202,394244,0,true,5.49,0,,,,
+S-compressed,4,S-compressed,2,resolve,stock,4.0364,603060,0,true,5.49,0,,,,
+S-compressed,4,S-compressed,3,rm JSON,stock,2.4505,400244,0,true,5.85,0,,,,
+S-compressed,4,S-compressed,4,add JSON,stock,4.6127,623692,0,true,5.78,0,,,,
+S-compressed,4,S-compressed,1,status,native,66.7993,1231336,0,true,6.36,0,,,,
+S-compressed,4,S-compressed,2,resolve,native,68.0756,1322044,0,true,5.50,0,,,,
+S-compressed,4,S-compressed,3,rm JSON,native,67.6849,1225204,0,true,7.68,0,,,,
+S-compressed,4,S-compressed,4,add JSON,native,73.2741,1312968,0,true,6.93,0,,,,
+S-compressed,4,S-compressed,1,status,wasm,2.5123,697820,0,true,6.96,0,31.803324000000003,15.646799999999999,53.57890599999999,1514.6396719999998
+S-compressed,4,S-compressed,2,resolve,wasm,11.2657,815648,0,true,6.80,0,34.308909,16.203564999999998,55.847128999999995,10773.35557
+S-compressed,4,S-compressed,3,rm JSON,wasm,1.6600,617076,0,true,6.67,0,27.610922000000002,17.172375000000002,56.47905499999999,685.537905
+S-compressed,4,S-compressed,4,add JSON,wasm,11.4701,850196,0,true,6.67,0,30.073786999999996,15.782240999999999,54.72675699999999,10981.836134000001
+S-compressed,5,S-compressed,1,status,wasm,2.5294,646328,0,true,8.51,0,29.62446200000001,15.656720000000007,53.86770900000002,1535.062441
+S-compressed,5,S-compressed,2,resolve,wasm,11.3117,969620,0,true,8.55,0,32.073567,17.12017400000002,56.53553599999998,10815.432840000001
+S-compressed,5,S-compressed,3,rm JSON,wasm,1.6775,627648,0,true,7.99,0,31.570961999999994,16.68557,54.046751,652.8179309999999
+S-compressed,5,S-compressed,4,add JSON,wasm,11.4874,848960,0,true,7.99,0,32.534212,16.699889999999996,55.302403,11007.114873
+S-compressed,5,S-compressed,1,status,stock,1.7198,393076,0,true,9.26,0,,,,
+S-compressed,5,S-compressed,2,resolve,stock,4.0437,601032,0,true,9.26,0,,,,
+S-compressed,5,S-compressed,3,rm JSON,stock,2.4000,399856,0,true,9.32,0,,,,
+S-compressed,5,S-compressed,4,add JSON,stock,4.7140,624044,0,true,9.38,0,,,,
+S-compressed,5,S-compressed,1,status,native,66.1070,1229988,0,true,12.23,0,,,,
+S-compressed,5,S-compressed,2,resolve,native,68.3231,1313992,0,true,7.54,0,,,,
+S-compressed,5,S-compressed,3,rm JSON,native,68.4757,1231892,0,true,6.55,0,,,,
+S-compressed,5,S-compressed,4,add JSON,native,73.9422,1315760,0,true,5.52,0,,,,
+S-registry,1,S-registry,1,registry add General,stock,3.2231,430340,0,true,6.43,0,,,,
+S-registry,1,S-registry,2,registry status,stock,2.7945,399372,0,true,7.04,0,,,,
+S-registry,1,S-registry,3,registry update,stock,3.0204,398092,0,true,7.68,0,,,,
+S-registry,1,S-registry,4,status,stock,1.3352,369796,0,true,8.18,0,,,,
+S-registry,1,S-registry,5,registry rm General,stock,2.5959,393304,0,true,8.18,0,,,,
+S-registry,1,S-registry,6,registry status,stock,2.2914,371680,0,true,7.93,0,,,,
+S-registry,1,S-registry,1,registry add General,native,64.3635,1260600,0,true,7.85,0,,,,
+S-registry,1,S-registry,2,registry status,native,60.4476,1217844,0,true,6.37,0,,,,
+S-registry,1,S-registry,3,registry update,native,63.6540,1217648,0,true,4.90,0,,,,
+S-registry,1,S-registry,4,status,native,66.4276,1215656,0,true,6.62,0,,,,
+S-registry,1,S-registry,5,registry rm General,native,60.4806,1216712,0,true,5.20,0,,,,
+S-registry,1,S-registry,6,registry status,native,62.5860,1211300,0,true,5.46,0,,,,
+S-registry,1,S-registry,1,registry add General,wasm,3.9054,365308,0,true,15.55,0,35.823451000000006,17.466860999999994,59.907421,3487.517527
+S-registry,1,S-registry,2,registry status,wasm,1.8558,372780,0,true,15.55,0,32.61165799999999,16.59313200000001,58.881129999999985,1521.287957
+S-registry,1,S-registry,3,registry update,wasm,0.9290,173156,0,true,16.39,0,32.184854,16.483451000000002,58.636888,593.77803
+S-registry,1,S-registry,4,status,wasm,0.4267,163244,0,true,16.39,0,30.022830999999996,16.368690000000015,57.94543999999999,174.39880599999998
+S-registry,1,S-registry,5,registry rm General,wasm,0.8721,162628,0,true,17.24,0,30.290434000000005,17.34457900000001,58.251003,546.919504
+S-registry,1,S-registry,6,registry status,wasm,0.3334,172992,0,true,17.24,0,30.005269999999996,16.63909299999999,59.476136,79.21261999999999
+S-registry,2,S-registry,1,registry add General,wasm,3.8789,361856,0,true,17.24,0,32.786979,16.442970000000017,59.217614,3462.529136
+S-registry,2,S-registry,2,registry status,wasm,1.8889,358876,0,true,18.10,0,31.622406999999995,16.634653000000014,61.41235599999999,1549.6768470000002
+S-registry,2,S-registry,3,registry update,wasm,0.8997,175288,0,true,24.42,0,32.431976000000006,16.877174999999994,59.09373200000002,574.716951
+S-registry,2,S-registry,4,status,wasm,0.4302,173492,0,true,24.42,0,39.36600700000001,18.209028999999987,57.060190999999975,167.342613
+S-registry,2,S-registry,5,registry rm General,wasm,0.8652,173596,0,true,24.42,0,35.07988300000001,16.309089,59.994662000000005,524.552271
+S-registry,2,S-registry,6,registry status,wasm,0.3368,163508,0,true,24.87,0,33.65814900000001,16.820133999999996,58.949850000000026,81.74256700000001
+S-registry,2,S-registry,1,registry add General,stock,3.3050,428624,0,true,24.87,0,,,,
+S-registry,2,S-registry,2,registry status,stock,3.0565,399520,0,true,25.12,0,,,,
+S-registry,2,S-registry,3,registry update,stock,3.2059,398980,0,true,25.12,0,,,,
+S-registry,2,S-registry,4,status,stock,1.4171,369356,0,true,25.27,0,,,,
+S-registry,2,S-registry,5,registry rm General,stock,2.8042,395272,0,true,25.81,0,,,,
+S-registry,2,S-registry,6,registry status,stock,2.5126,370896,0,true,25.81,0,,,,
+S-registry,2,S-registry,1,registry add General,native,71.7335,1258448,0,true,25.90,0,,,,
+S-registry,2,S-registry,2,registry status,native,68.5710,1235924,0,true,27.46,0,,,,
+S-registry,2,S-registry,3,registry update,native,70.3636,1236300,0,true,27.84,0,,,,
+S-registry,2,S-registry,4,status,native,71.0670,1229952,0,true,31.03,0,,,,
+S-registry,2,S-registry,5,registry rm General,native,65.8351,1232736,0,true,29.03,0,,,,
+S-registry,2,S-registry,6,registry status,native,65.4387,1227620,0,true,28.49,0,,,,
+S-registry,3,S-registry,1,registry add General,native,69.6851,1257152,0,true,27.05,0,,,,
+S-registry,3,S-registry,2,registry status,native,66.8781,1234288,0,true,26.96,0,,,,
+S-registry,3,S-registry,3,registry update,native,69.1811,1234212,0,true,26.92,0,,,,
+S-registry,3,S-registry,4,status,native,67.2741,1224924,0,true,26.62,0,,,,
+S-registry,3,S-registry,5,registry rm General,native,63.2030,1222332,0,true,15.26,0,,,,
+S-registry,3,S-registry,6,registry status,native,66.3089,1227008,0,true,15.61,0,,,,
+S-registry,3,S-registry,1,registry add General,wasm,3.9403,375432,0,true,23.26,0,35.019679,16.440567999999985,58.450919,3525.8233619999996
+S-registry,3,S-registry,2,registry status,wasm,1.8712,359324,0,true,23.96,0,32.78021700000001,16.916732999999994,72.814546,1520.876718
+S-registry,3,S-registry,3,registry update,wasm,0.9250,174008,0,true,24.05,0,34.26015100000001,16.710251,59.665772000000004,594.381456
+S-registry,3,S-registry,4,status,wasm,0.4150,173136,0,true,24.05,0,28.506893000000005,16.71857100000001,59.82029399999999,167.73288
+S-registry,3,S-registry,5,registry rm General,wasm,0.8494,180444,0,true,24.05,0,30.085909,16.70501200000001,56.973704,533.266429
+S-registry,3,S-registry,6,registry status,wasm,0.3239,173556,0,true,24.36,0,30.972718,16.918572999999995,58.06599600000001,80.65230699999998
+S-registry,3,S-registry,1,registry add General,stock,3.3152,429708,0,true,24.36,0,,,,
+S-registry,3,S-registry,2,registry status,stock,2.9891,400276,0,true,24.50,0,,,,
+S-registry,3,S-registry,3,registry update,stock,3.1662,398528,0,true,24.50,0,,,,
+S-registry,3,S-registry,4,status,stock,1.3988,369224,0,true,24.62,0,,,,
+S-registry,3,S-registry,5,registry rm General,stock,2.7867,393692,0,true,24.65,0,,,,
+S-registry,3,S-registry,6,registry status,stock,2.4262,371768,0,true,24.65,0,,,,
+S-registry,4,S-registry,1,registry add General,stock,3.2744,428692,0,true,25.16,0,,,,
+S-registry,4,S-registry,2,registry status,stock,3.0330,400580,0,true,25.46,0,,,,
+S-registry,4,S-registry,3,registry update,stock,3.1596,399340,0,true,25.46,0,,,,
+S-registry,4,S-registry,4,status,stock,1.4109,369632,0,true,25.59,0,,,,
+S-registry,4,S-registry,5,registry rm General,stock,2.7684,394736,0,true,25.86,0,,,,
+S-registry,4,S-registry,6,registry status,stock,2.4473,371728,0,true,25.86,0,,,,
+S-registry,4,S-registry,1,registry add General,native,69.6517,1256944,0,true,26.03,0,,,,
+S-registry,4,S-registry,2,registry status,native,62.8897,1232844,0,true,26.28,0,,,,
+S-registry,4,S-registry,3,registry update,native,62.3845,1223776,0,true,15.27,0,,,,
+S-registry,4,S-registry,4,status,native,73.0972,1226060,0,true,7.63,0,,,,
+S-registry,4,S-registry,5,registry rm General,native,67.8426,1235628,0,true,20.63,0,,,,
+S-registry,4,S-registry,6,registry status,native,67.4350,1228100,0,true,26.71,0,,,,
+S-registry,4,S-registry,1,registry add General,wasm,3.8263,382476,0,true,27.47,0,30.003107,17.07981500000001,58.42563799999999,3416.5816360000003
+S-registry,4,S-registry,2,registry status,wasm,1.8770,368132,0,true,27.35,0,31.279360999999994,17.100495999999993,59.97509500000001,1533.265065
+S-registry,4,S-registry,3,registry update,wasm,0.9215,173292,0,true,27.24,0,32.624933999999996,17.234856000000008,58.74996100000001,589.138274
+S-registry,4,S-registry,4,status,wasm,0.4166,173376,0,true,27.24,0,29.09441799999999,16.869372000000013,59.195966,167.98516099999998
+S-registry,4,S-registry,5,registry rm General,wasm,0.8549,161376,0,true,27.24,0,31.310239999999993,16.678330999999986,59.66725099999999,534.279912
+S-registry,4,S-registry,6,registry status,wasm,0.3335,158488,0,true,27.24,0,31.371720999999994,17.350378000000006,59.683852,74.21839999999997
+S-registry,5,S-registry,1,registry add General,wasm,3.8886,366652,0,true,27.24,0,31.297360000000012,16.895692999999994,58.87204299999999,3481.616942
+S-registry,5,S-registry,2,registry status,wasm,1.8860,361180,0,true,27.06,0,31.01431699999999,16.76709199999999,58.76384200000001,1553.313711
+S-registry,5,S-registry,3,registry update,wasm,0.9235,177088,0,true,26.90,0,33.099739,16.911813999999993,60.67522200000002,583.4722559999999
+S-registry,5,S-registry,4,status,wasm,0.4269,164056,0,true,26.90,0,33.309501,16.927692999999977,56.91786300000001,172.50088699999998
+S-registry,5,S-registry,5,registry rm General,wasm,0.8696,174292,0,true,26.82,0,33.785945999999996,16.533929,58.405118000000016,534.440514
+S-registry,5,S-registry,6,registry status,wasm,0.3383,171820,0,true,26.82,0,31.950288,16.800771999999995,61.211027,80.29090299999999
+S-registry,5,S-registry,1,registry add General,stock,3.3718,427888,0,true,26.82,0,,,,
+S-registry,5,S-registry,2,registry status,stock,3.0611,399640,0,true,27.08,0,,,,
+S-registry,5,S-registry,3,registry update,stock,3.2013,398368,0,true,27.07,0,,,,
+S-registry,5,S-registry,4,status,stock,1.4313,369196,0,true,27.07,0,,,,
+S-registry,5,S-registry,5,registry rm General,stock,2.7857,393764,0,true,27.07,0,,,,
+S-registry,5,S-registry,6,registry status,stock,2.4889,370900,0,true,27.07,0,,,,
+S-registry,5,S-registry,1,registry add General,native,70.2032,1259036,0,true,26.98,0,,,,
+S-registry,5,S-registry,2,registry status,native,66.7784,1237072,0,true,27.23,0,,,,
+S-registry,5,S-registry,3,registry update,native,69.3379,1234276,0,true,26.32,0,,,,
+S-registry,5,S-registry,4,status,native,71.5965,1228972,0,true,27.20,0,,,,
+S-registry,5,S-registry,5,registry rm General,native,66.9170,1232988,0,true,27.02,0,,,,
+S-registry,5,S-registry,6,registry status,native,65.8449,1227132,0,true,29.40,0,,,,
+S-registry-compressed,1,S-registry-compressed,1,registry status,stock,3.0604,399624,0,true,32.88,0,,,,
+S-registry-compressed,1,S-registry-compressed,2,registry update,stock,3.1773,398424,0,true,32.65,0,,,,
+S-registry-compressed,1,S-registry-compressed,3,registry rm General,stock,2.7724,394144,0,true,32.28,0,,,,
+S-registry-compressed,1,S-registry-compressed,1,registry status,native,68.2856,1233164,0,true,32.39,0,,,,
+S-registry-compressed,1,S-registry-compressed,2,registry update,native,71.6086,1236292,0,true,29.60,0,,,,
+S-registry-compressed,1,S-registry-compressed,3,registry rm General,native,67.8741,1236956,0,true,29.97,0,,,,
+S-registry-compressed,1,S-registry-compressed,1,registry status,wasm,1.8894,376244,0,true,30.99,0,32.30564399999999,17.358935000000002,60.018403000000006,1537.7650139999998
+S-registry-compressed,1,S-registry-compressed,2,registry update,wasm,0.9302,173672,0,true,30.99,0,28.900290000000012,16.742728000000014,60.727209999999985,586.133011
+S-registry-compressed,1,S-registry-compressed,3,registry rm General,wasm,0.8859,165132,0,true,30.99,0,38.885711,17.084891999999996,59.58179799999999,550.18217
+S-registry-compressed,2,S-registry-compressed,1,registry status,wasm,1.8674,376428,0,true,30.99,0,30.031182,16.768288000000013,57.754459999999995,1543.0667520000002
+S-registry-compressed,2,S-registry-compressed,2,registry update,wasm,0.9327,184920,0,true,31.23,0,33.925940999999995,16.807569,60.191045,593.470526
+S-registry-compressed,2,S-registry-compressed,3,registry rm General,wasm,0.8674,164008,0,true,31.23,0,33.244294,17.46229500000001,61.00293300000001,531.09038
+S-registry-compressed,2,S-registry-compressed,1,registry status,stock,3.0949,399568,0,true,31.21,0,,,,
+S-registry-compressed,2,S-registry-compressed,2,registry update,stock,3.2205,398904,0,true,31.21,0,,,,
+S-registry-compressed,2,S-registry-compressed,3,registry rm General,stock,2.8390,395084,0,true,32.88,0,,,,
+S-registry-compressed,2,S-registry-compressed,1,registry status,native,68.8870,1236716,0,true,32.41,0,,,,
+S-registry-compressed,2,S-registry-compressed,2,registry update,native,70.3064,1235860,0,true,34.14,0,,,,
+S-registry-compressed,2,S-registry-compressed,3,registry rm General,native,66.6114,1231076,0,true,31.80,0,,,,
+S-registry-compressed,3,S-registry-compressed,1,registry status,native,69.7096,1234060,0,true,31.97,0,,,,
+S-registry-compressed,3,S-registry-compressed,2,registry update,native,71.9319,1230416,0,true,35.00,0,,,,
+S-registry-compressed,3,S-registry-compressed,3,registry rm General,native,66.6778,1234204,0,true,35.98,0,,,,
+S-registry-compressed,3,S-registry-compressed,1,registry status,wasm,1.8589,364328,0,true,31.71,0,29.931143000000006,16.231443999999982,55.583123,1494.255618
+S-registry-compressed,3,S-registry-compressed,2,registry update,wasm,0.8927,173532,0,true,31.71,0,35.003915000000006,16.60664899999999,55.778605,573.303928
+S-registry-compressed,3,S-registry-compressed,3,registry rm General,wasm,0.8316,169864,0,true,31.71,0,28.418207999999993,16.311405000000008,56.101088000000004,521.632965
+S-registry-compressed,3,S-registry-compressed,1,registry status,stock,3.0336,397656,0,true,31.65,0,,,,
+S-registry-compressed,3,S-registry-compressed,2,registry update,stock,3.1631,397168,0,true,31.65,0,,,,
+S-registry-compressed,3,S-registry-compressed,3,registry rm General,stock,2.7699,392136,0,true,31.36,0,,,,
+S-registry-compressed,4,S-registry-compressed,1,registry status,stock,3.0467,397332,0,true,31.33,0,,,,
+S-registry-compressed,4,S-registry-compressed,2,registry update,stock,3.2006,397220,0,true,30.91,0,,,,
+S-registry-compressed,4,S-registry-compressed,3,registry rm General,stock,2.7197,391500,0,true,30.59,0,,,,
+S-registry-compressed,4,S-registry-compressed,1,registry status,native,66.5851,1232776,0,true,30.59,0,,,,
+S-registry-compressed,4,S-registry-compressed,2,registry update,native,68.7534,1233788,0,true,27.44,0,,,,
+S-registry-compressed,4,S-registry-compressed,3,registry rm General,native,63.4685,1231392,0,true,26.54,0,,,,
+S-registry-compressed,4,S-registry-compressed,1,registry status,wasm,1.7893,370196,0,true,20.23,0,33.224177,16.333405999999997,53.52646299999998,1488.53935
+S-registry-compressed,4,S-registry-compressed,2,registry update,wasm,0.8662,174884,0,true,19.01,0,35.724323,15.936481,53.11213900000001,566.845355
+S-registry-compressed,4,S-registry-compressed,3,registry rm General,wasm,0.8347,165696,0,true,19.01,0,29.958823999999993,15.919321999999994,52.978578,530.303264
+S-registry-compressed,5,S-registry-compressed,1,registry status,wasm,1.8041,365500,0,true,17.81,0,27.70816099999999,16.338366000000008,52.76901599999999,1494.373091
+S-registry-compressed,5,S-registry-compressed,2,registry update,wasm,0.8650,173608,0,true,17.81,0,31.973685000000003,16.321205000000006,53.10558,568.1796079999999
+S-registry-compressed,5,S-registry-compressed,3,registry rm General,wasm,0.8092,170152,0,true,17.81,0,31.130635999999996,16.771810000000002,54.143789999999996,511.90199699999994
+S-registry-compressed,5,S-registry-compressed,1,registry status,stock,2.8070,397032,0,true,17.02,0,,,,
+S-registry-compressed,5,S-registry-compressed,2,registry update,stock,2.9382,396440,0,true,17.02,0,,,,
+S-registry-compressed,5,S-registry-compressed,3,registry rm General,stock,2.5844,391328,0,true,16.14,0,,,,
+S-registry-compressed,5,S-registry-compressed,1,registry status,native,60.3503,1211880,0,true,15.17,0,,,,
+S-registry-compressed,5,S-registry-compressed,2,registry update,native,65.1365,1219704,0,true,8.04,0,,,,
+S-registry-compressed,5,S-registry-compressed,3,registry rm General,native,68.1152,1234852,0,true,9.97,0,,,,
+S-git,1,S-git,1,registry add git/Reg,stock,2.5257,376736,0,true,23.48,0,,,,
+S-git,1,S-git,2,add Foo,stock,2.3311,386356,0,true,23.84,0,,,,
+S-git,1,S-git,3,add git/Foo#dev,stock,2.9944,387072,0,true,23.84,0,,,,
+S-git,1,S-git,4,add file://{rundir}/git/Foo#v0.1.0,stock,2.9484,387020,0,true,24.17,0,,,,
+S-git,1,S-git,5,add file://{rundir}/git/Foo:sub/Bar,stock,3.0908,387624,0,true,24.17,0,,,,
+S-git,1,S-git,6,develop file://{rundir}/git/Foo,stock,3.0496,387028,0,true,24.24,0,,,,
+S-git,1,S-git,7,registry update,stock,2.9600,379316,0,true,24.46,0,,,,
+S-git,1,S-git,8,status,stock,1.6169,375356,0,true,24.46,0,,,,
+S-git,1,S-git,1,registry add git/Reg,native,69.1939,1227240,0,true,24.85,0,,,,
+S-git,1,S-git,2,add Foo,native,80.3300,1231504,0,true,28.75,0,,,,
+S-git,1,S-git,3,add git/Foo#dev,native,79.6879,1229884,0,true,28.03,0,,,,
+S-git,1,S-git,4,add file://{rundir}/git/Foo#v0.1.0,native,78.6990,1230044,0,true,27.53,0,,,,
+S-git,1,S-git,5,add file://{rundir}/git/Foo:sub/Bar,native,78.5678,1233812,0,true,27.08,0,,,,
+S-git,1,S-git,6,develop file://{rundir}/git/Foo,native,77.9620,1230376,0,true,27.07,0,,,,
+S-git,1,S-git,7,registry update,native,69.5266,1226728,0,true,26.81,0,,,,
+S-git,1,S-git,8,status,native,69.2604,1227500,0,true,26.41,0,,,,
+S-git,1,S-git,1,registry add git/Reg,wasm,0.5500,190236,0,true,20.82,0,29.985425000000006,16.058644,52.537575000000004,296.475499
+S-git,1,S-git,2,add Foo,wasm,1.7448,628652,0,true,20.82,0,29.62518200000001,15.749279999999999,52.61325599999998,769.3742729999999
+S-git,1,S-git,3,add git/Foo#dev,wasm,1.7841,617016,0,true,20.82,0,33.70446299999999,15.935962000000018,52.43329300000002,784.705869
+S-git,1,S-git,4,add file://{rundir}/git/Foo#v0.1.0,wasm,1.7743,611040,0,true,20.82,0,29.887463999999994,15.918401999999986,55.44020499999999,744.9064250000001
+S-git,1,S-git,5,add file://{rundir}/git/Foo:sub/Bar,wasm,1.7123,613348,0,true,21.15,0,33.136138,17.214335000000005,60.224613000000005,728.631939
+S-git,1,S-git,6,develop file://{rundir}/git/Foo,wasm,1.5790,601808,0,true,21.15,0,31.585801000000004,16.166404,58.056791000000004,653.3143719999999
+S-git,1,S-git,7,registry update,wasm,0.5758,158712,0,true,21.15,0,30.19350800000001,16.179924999999997,57.60578700000002,321.19407
+S-git,1,S-git,8,status,wasm,0.5215,159444,0,true,21.70,0,29.530980999999997,16.482928,56.55957599999999,262.155909
+S-git,2,S-git,1,registry add git/Reg,wasm,0.5815,169428,0,true,21.70,0,39.171199,17.006134000000003,60.880660000000006,307.98441599999995
+S-git,2,S-git,2,add Foo,wasm,1.8177,606664,0,true,21.70,0,32.061087,16.957132999999985,59.191843000000006,816.688675
+S-git,2,S-git,3,add git/Foo#dev,wasm,1.8481,617716,0,true,22.13,0,31.330239000000006,17.456018,61.47286599999998,848.4957599999999
+S-git,2,S-git,4,add file://{rundir}/git/Foo#v0.1.0,wasm,1.6624,622012,0,true,22.13,0,34.376189999999994,16.834452,58.111391999999995,701.3972620000001
+S-git,2,S-git,5,add file://{rundir}/git/Foo:sub/Bar,wasm,1.6908,624248,0,true,22.13,0,30.501271000000003,17.79618099999999,59.728769,715.96729
+S-git,2,S-git,6,develop file://{rundir}/git/Foo,wasm,1.5742,623920,0,true,22.44,0,30.535111,17.579419,60.59153699999999,614.6428579999999
+S-git,2,S-git,7,registry update,wasm,0.6049,169900,0,true,22.44,0,28.680611999999996,16.562209000000024,58.20863299999999,339.46805600000005
+S-git,2,S-git,8,status,wasm,0.5284,169956,0,true,22.44,0,30.00118599999999,16.743809999999996,60.11573200000001,270.66631600000005
+S-git,2,S-git,1,registry add git/Reg,stock,2.5640,376696,0,true,22.44,0,,,,
+S-git,2,S-git,2,add Foo,stock,2.3427,386360,0,true,23.52,0,,,,
+S-git,2,S-git,3,add git/Foo#dev,stock,3.0745,386980,0,true,23.52,0,,,,
+S-git,2,S-git,4,add file://{rundir}/git/Foo#v0.1.0,stock,3.0030,387568,0,true,23.80,0,,,,
+S-git,2,S-git,5,add file://{rundir}/git/Foo:sub/Bar,stock,3.0945,386900,0,true,23.80,0,,,,
+S-git,2,S-git,6,develop file://{rundir}/git/Foo,stock,3.0572,387004,0,true,23.90,0,,,,
+S-git,2,S-git,7,registry update,stock,2.9854,379340,0,true,23.99,0,,,,
+S-git,2,S-git,8,status,stock,1.6218,374812,0,true,23.99,0,,,,
+S-git,2,S-git,1,registry add git/Reg,native,69.4000,1227708,0,true,24.07,0,,,,
+S-git,2,S-git,2,add Foo,native,80.6803,1232192,0,true,28.64,0,,,,
+S-git,2,S-git,3,add git/Foo#dev,native,79.6143,1229180,0,true,27.50,0,,,,
+S-git,2,S-git,4,add file://{rundir}/git/Foo#v0.1.0,native,79.6748,1230216,0,true,29.12,0,,,,
+S-git,2,S-git,5,add file://{rundir}/git/Foo:sub/Bar,native,78.9493,1228492,0,true,29.88,0,,,,
+S-git,2,S-git,6,develop file://{rundir}/git/Foo,native,77.2252,1229964,0,true,27.98,0,,,,
+S-git,2,S-git,7,registry update,native,68.9288,1224424,0,true,27.10,0,,,,
+S-git,2,S-git,8,status,native,72.2094,1227076,0,true,27.40,0,,,,
+S-git,3,S-git,1,registry add git/Reg,native,67.8300,1226648,0,true,27.52,0,,,,
+S-git,3,S-git,2,add Foo,native,79.2190,1227556,0,true,27.07,0,,,,
+S-git,3,S-git,3,add git/Foo#dev,native,77.9031,1230860,0,true,27.39,0,,,,
+S-git,3,S-git,4,add file://{rundir}/git/Foo#v0.1.0,native,78.3684,1228760,0,true,28.17,0,,,,
+S-git,3,S-git,5,add file://{rundir}/git/Foo:sub/Bar,native,77.5834,1231452,0,true,27.28,0,,,,
+S-git,3,S-git,6,develop file://{rundir}/git/Foo,native,71.0978,1221596,0,true,25.03,0,,,,
+S-git,3,S-git,7,registry update,native,63.2359,1215848,0,true,12.62,0,,,,
+S-git,3,S-git,8,status,native,65.7535,1212716,0,true,10.17,0,,,,
+S-git,3,S-git,1,registry add git/Reg,wasm,0.5335,167988,0,true,6.66,0,33.826622,16.04764200000001,52.950255,289.245326
+S-git,3,S-git,2,add Foo,wasm,1.7339,614676,0,true,6.45,0,31.097713999999996,16.799330000000012,55.594402,782.559958
+S-git,3,S-git,3,add git/Foo#dev,wasm,1.6656,617816,0,true,6.45,0,32.935933000000006,16.658327999999997,59.42528100000001,745.626663
+S-git,3,S-git,4,add file://{rundir}/git/Foo#v0.1.0,wasm,1.6066,620812,0,true,6.45,0,31.637400999999997,15.93000099999999,53.14641800000001,698.957312
+S-git,3,S-git,5,add file://{rundir}/git/Foo:sub/Bar,wasm,1.7009,740884,0,true,6.25,0,33.248217,16.545766999999984,53.25441900000001,778.7848389999999
+S-git,3,S-git,6,develop file://{rundir}/git/Foo,wasm,1.5038,600464,0,true,6.25,0,27.945763,16.13428300000001,54.296389000000005,627.887873
+S-git,3,S-git,7,registry update,wasm,0.5412,158912,0,true,6.25,0,32.18928600000001,15.589838,52.644653000000005,301.710292
+S-git,3,S-git,8,status,wasm,0.4934,168708,0,true,6.25,0,32.739650999999995,15.930041000000017,52.324689000000006,250.254332
+S-git,3,S-git,1,registry add git/Reg,stock,2.2996,376756,0,true,6.25,0,,,,
+S-git,3,S-git,2,add Foo,stock,2.1016,386412,0,true,6.31,0,,,,
+S-git,3,S-git,3,add git/Foo#dev,stock,2.7110,387124,0,true,6.31,0,,,,
+S-git,3,S-git,4,add file://{rundir}/git/Foo#v0.1.0,stock,2.6765,387724,0,true,6.05,0,,,,
+S-git,3,S-git,5,add file://{rundir}/git/Foo:sub/Bar,stock,2.8244,387068,0,true,6.05,0,,,,
+S-git,3,S-git,6,develop file://{rundir}/git/Foo,stock,2.7713,386964,0,true,6.04,0,,,,
+S-git,3,S-git,7,registry update,stock,2.7109,379664,0,true,5.80,0,,,,
+S-git,3,S-git,8,status,stock,1.5084,374708,0,true,5.80,0,,,,
+S-git,4,S-git,1,registry add git/Reg,stock,2.3046,375612,0,true,5.82,0,,,,
+S-git,4,S-git,2,add Foo,stock,2.1088,386412,0,true,5.82,0,,,,
+S-git,4,S-git,3,add git/Foo#dev,stock,2.7019,386292,0,true,5.82,0,,,,
+S-git,4,S-git,4,add file://{rundir}/git/Foo#v0.1.0,stock,2.6646,387640,0,true,5.59,0,,,,
+S-git,4,S-git,5,add file://{rundir}/git/Foo:sub/Bar,stock,2.7985,388204,0,true,5.59,0,,,,
+S-git,4,S-git,6,develop file://{rundir}/git/Foo,stock,2.7422,386396,0,true,5.54,0,,,,
+S-git,4,S-git,7,registry update,stock,2.6982,379392,0,true,5.42,0,,,,
+S-git,4,S-git,8,status,stock,1.4706,374884,0,true,5.42,0,,,,
+S-git,4,S-git,1,registry add git/Reg,native,61.5666,1213856,0,true,5.55,0,,,,
+S-git,4,S-git,2,add Foo,native,70.8179,1248176,0,true,6.49,0,,,,
+S-git,4,S-git,3,add git/Foo#dev,native,70.5087,1227652,0,true,5.14,0,,,,
+S-git,4,S-git,4,add file://{rundir}/git/Foo#v0.1.0,native,78.7934,1222584,0,true,4.66,0,,,,
+S-git,4,S-git,5,add file://{rundir}/git/Foo:sub/Bar,native,78.7138,1228436,0,true,20.42,0,,,,
+S-git,4,S-git,6,develop file://{rundir}/git/Foo,native,77.3211,1228168,0,true,27.60,0,,,,
+S-git,4,S-git,7,registry update,native,69.0911,1224988,0,true,27.86,0,,,,
+S-git,4,S-git,8,status,native,71.5417,1226040,0,true,28.77,0,,,,
+S-git,4,S-git,1,registry add git/Reg,wasm,0.5656,168800,0,true,27.49,0,29.547380000000004,16.899970999999994,58.92419699999999,299.818959
+S-git,4,S-git,2,add Foo,wasm,1.8111,615196,0,true,27.49,0,35.77828299999999,16.899652000000003,59.52648400000001,828.619521
+S-git,4,S-git,3,add git/Foo#dev,wasm,1.7254,608376,0,true,27.45,0,31.818883,16.794650999999988,59.08991900000001,801.251084
+S-git,4,S-git,4,add file://{rundir}/git/Foo#v0.1.0,wasm,1.6037,622664,0,true,27.45,0,30.454228999999998,17.131574000000015,55.50224299999999,689.699593
+S-git,4,S-git,5,add file://{rundir}/git/Foo:sub/Bar,wasm,1.6467,623736,0,true,27.45,0,32.338848,17.145613999999995,57.10253900000001,717.290353
+S-git,4,S-git,6,develop file://{rundir}/git/Foo,wasm,1.5020,624436,0,true,27.33,0,27.405878,16.181084,57.845027000000016,633.504023
+S-git,4,S-git,7,registry update,wasm,0.5559,159880,0,true,27.33,0,35.487359999999995,17.01469300000001,56.83953699999998,303.33507499999996
+S-git,4,S-git,8,status,wasm,0.5109,159408,0,true,27.33,0,31.685921000000008,16.054121999999992,56.785495000000026,262.51118099999997
+S-git,5,S-git,1,registry add git/Reg,wasm,0.5628,159524,0,true,27.33,0,34.939434000000006,16.75856999999999,56.988058000000024,293.331414
+S-git,5,S-git,2,add Foo,wasm,1.7637,623948,0,true,27.33,0,31.633640999999997,16.15940400000001,56.390732000000014,813.383848
+S-git,5,S-git,3,add git/Foo#dev,wasm,1.7330,617836,0,true,27.23,0,35.23151800000001,16.26944499999999,56.27085099999999,795.2439430000001
+S-git,5,S-git,4,add file://{rundir}/git/Foo#v0.1.0,wasm,1.6279,603744,0,true,27.23,0,30.457109000000003,17.253654999999995,57.18681999999998,710.784726
+S-git,5,S-git,5,add file://{rundir}/git/Foo:sub/Bar,wasm,1.6178,622976,0,true,27.13,0,32.13800599999999,16.309765000000013,56.38349199999999,692.505582
+S-git,5,S-git,6,develop file://{rundir}/git/Foo,wasm,1.5158,610048,0,true,27.13,0,30.111385999999996,15.884321,55.421681999999976,634.773277
+S-git,5,S-git,7,registry update,wasm,0.5512,159232,0,true,27.13,0,27.271755999999996,16.923691000000005,55.40596100000002,307.23299499999996
+S-git,5,S-git,8,status,wasm,0.5167,171380,0,true,27.13,0,35.401359,16.16384400000001,54.44767200000001,254.22293699999997
+S-git,5,S-git,1,registry add git/Reg,stock,2.4611,376512,0,true,27.13,0,,,,
+S-git,5,S-git,2,add Foo,stock,2.2666,386396,0,true,26.96,0,,,,
+S-git,5,S-git,3,add git/Foo#dev,stock,2.9475,386928,0,true,26.96,0,,,,
+S-git,5,S-git,4,add file://{rundir}/git/Foo#v0.1.0,stock,2.9030,387440,0,true,26.80,0,,,,
+S-git,5,S-git,5,add file://{rundir}/git/Foo:sub/Bar,stock,3.0318,387616,0,true,27.06,0,,,,
+S-git,5,S-git,6,develop file://{rundir}/git/Foo,stock,2.9635,386820,0,true,27.06,0,,,,
+S-git,5,S-git,7,registry update,stock,2.8564,379444,0,true,26.97,0,,,,
+S-git,5,S-git,8,status,stock,1.5635,375392,0,true,26.97,0,,,,
+S-git,5,S-git,1,registry add git/Reg,native,66.7289,1222244,0,true,26.49,0,,,,
+S-git,5,S-git,2,add Foo,native,80.1261,1229656,0,true,22.97,0,,,,
+S-git,5,S-git,3,add git/Foo#dev,native,79.0251,1227848,0,true,25.97,0,,,,
+S-git,5,S-git,4,add file://{rundir}/git/Foo#v0.1.0,native,79.1232,1228188,0,true,26.86,0,,,,
+S-git,5,S-git,5,add file://{rundir}/git/Foo:sub/Bar,native,78.5109,1228872,0,true,26.16,0,,,,
+S-git,5,S-git,6,develop file://{rundir}/git/Foo,native,77.6065,1229136,0,true,26.61,0,,,,
+S-git,5,S-git,7,registry update,native,69.2585,1225676,0,true,26.23,0,,,,
+S-git,5,S-git,8,status,native,72.2815,1224940,0,true,26.88,0,,,,
+S-artifacts,1,S-artifacts,1,add Bzip2_jll,stock,3.7172,432792,0,true,26.66,0,,,,
+S-artifacts,1,S-artifacts,2,instantiate,stock,1.5270,377520,0,true,26.72,0,,,,
+S-artifacts,1,S-artifacts,3,instantiate,stock,3.4901,431612,0,true,26.72,0,,,,
+S-artifacts,1,S-artifacts,4,status,stock,1.5140,379024,0,true,26.74,0,,,,
+S-artifacts,1,S-artifacts,1,add Bzip2_jll,native,73.8086,1297328,0,true,25.78,0,,,,
+S-artifacts,1,S-artifacts,2,instantiate,native,70.1967,1230856,0,true,12.35,0,,,,
+S-artifacts,1,S-artifacts,3,instantiate,native,74.6217,1229880,0,true,24.20,0,,,,
+S-artifacts,1,S-artifacts,4,status,native,74.8651,1230224,0,true,25.52,0,,,,
+S-artifacts,1,S-artifacts,1,add Bzip2_jll,wasm,1.6108,980876,0,true,27.73,0,31.095315999999997,16.25740499999999,57.462143,1080.048331
+S-artifacts,1,S-artifacts,2,instantiate,wasm,1.3692,619472,0,true,27.67,0,27.357077000000004,16.253405000000015,58.45743399999998,408.629951
+S-artifacts,1,S-artifacts,3,instantiate,wasm,1.3308,621664,0,true,27.67,0,29.009055000000004,16.586568999999997,60.24485200000001,616.149218
+S-artifacts,1,S-artifacts,4,status,wasm,1.4089,619196,0,true,27.70,0,33.328978000000006,16.794569999999993,57.442103,441.0881599999999
+S-artifacts,2,S-artifacts,1,add Bzip2_jll,wasm,1.5663,835772,0,true,27.45,0,29.076775000000012,16.291605999999987,56.64881599999998,1073.0429
+S-artifacts,2,S-artifacts,2,instantiate,wasm,1.3876,630796,0,true,27.81,0,32.236727,16.550647999999995,60.237652,421.24087899999995
+S-artifacts,2,S-artifacts,3,instantiate,wasm,1.3083,613812,0,true,27.67,0,33.450379999999996,16.287404999999993,55.120000000000005,611.159488
+S-artifacts,2,S-artifacts,4,status,wasm,1.3952,631200,0,true,27.67,0,36.209648,16.13280400000002,56.799616999999984,445.125761
+S-artifacts,2,S-artifacts,1,add Bzip2_jll,stock,3.7777,429676,0,true,27.55,0,,,,
+S-artifacts,2,S-artifacts,2,instantiate,stock,1.5440,377432,0,true,27.51,0,,,,
+S-artifacts,2,S-artifacts,3,instantiate,stock,3.5742,433812,0,true,27.63,0,,,,
+S-artifacts,2,S-artifacts,4,status,stock,1.5954,379332,0,true,27.42,0,,,,
+S-artifacts,2,S-artifacts,1,add Bzip2_jll,native,85.2801,1254756,0,true,27.52,0,,,,
+S-artifacts,2,S-artifacts,2,instantiate,native,70.2872,1228536,0,true,28.18,0,,,,
+S-artifacts,2,S-artifacts,3,instantiate,native,75.3369,1230220,0,true,28.58,0,,,,
+S-artifacts,2,S-artifacts,4,status,native,72.8809,1231416,0,true,27.83,0,,,,
+S-artifacts,3,S-artifacts,1,add Bzip2_jll,native,73.7790,1297144,0,true,24.57,0,,,,
+S-artifacts,3,S-artifacts,2,instantiate,native,68.1712,1226636,0,true,10.42,0,,,,
+S-artifacts,3,S-artifacts,3,instantiate,native,71.8382,1228776,0,true,20.18,0,,,,
+S-artifacts,3,S-artifacts,4,status,native,67.9185,1228200,0,true,24.60,0,,,,
+S-artifacts,3,S-artifacts,1,add Bzip2_jll,wasm,1.6174,839996,0,true,17.76,0,32.584891,16.137963999999997,59.41132299999998,1116.3314560000001
+S-artifacts,3,S-artifacts,2,instantiate,wasm,1.3615,614752,0,true,18.34,0,29.593340999999995,17.123654000000002,59.610164999999995,410.507288
+S-artifacts,3,S-artifacts,3,instantiate,wasm,1.3361,614108,0,true,18.34,0,33.692942,17.15353399999998,58.92779899999999,601.8500310000001
+S-artifacts,3,S-artifacts,4,status,wasm,1.3918,725120,0,true,19.35,0,31.366077999999987,16.75661000000001,61.02753999999999,434.686934
+S-artifacts,3,S-artifacts,1,add Bzip2_jll,stock,3.7557,432300,0,true,20.52,0,,,,
+S-artifacts,3,S-artifacts,2,instantiate,stock,1.5362,377812,0,true,20.96,0,,,,
+S-artifacts,3,S-artifacts,3,instantiate,stock,3.4937,431572,0,true,21.61,0,,,,
+S-artifacts,3,S-artifacts,4,status,stock,1.5441,379432,0,true,22.20,0,,,,
+S-artifacts,4,S-artifacts,1,add Bzip2_jll,stock,3.6905,429452,0,true,22.63,0,,,,
+S-artifacts,4,S-artifacts,2,instantiate,stock,1.5185,378100,0,true,22.82,0,,,,
+S-artifacts,4,S-artifacts,3,instantiate,stock,3.5567,432448,0,true,23.15,0,,,,
+S-artifacts,4,S-artifacts,4,status,stock,1.5617,378596,0,true,23.30,0,,,,
+S-artifacts,4,S-artifacts,1,add Bzip2_jll,native,81.0575,1255176,0,true,23.93,0,,,,
+S-artifacts,4,S-artifacts,2,instantiate,native,66.9365,1227708,0,true,27.91,0,,,,
+S-artifacts,4,S-artifacts,3,instantiate,native,72.0157,1229560,0,true,29.45,0,,,,
+S-artifacts,4,S-artifacts,4,status,native,72.0407,1228940,0,true,27.59,0,,,,
+S-artifacts,4,S-artifacts,1,add Bzip2_jll,wasm,1.5732,947732,0,true,27.33,0,27.657481000000004,16.260405000000006,55.30376099999998,1032.0513190000001
+S-artifacts,4,S-artifacts,2,instantiate,wasm,1.3696,629108,0,true,27.14,0,30.901194000000004,16.68724900000001,56.417812,386.916608
+S-artifacts,4,S-artifacts,3,instantiate,wasm,1.3485,632432,0,true,27.14,0,31.761882,16.60616900000001,54.81127699999999,584.01477
+S-artifacts,4,S-artifacts,4,status,wasm,1.3928,621412,0,true,27.37,0,39.193078,16.196204000000023,57.183700000000016,462.755138
+S-artifacts,5,S-artifacts,1,add Bzip2_jll,wasm,1.6105,833704,0,true,27.74,0,31.398557999999994,16.289045999999985,56.554253999999986,1084.606932
+S-artifacts,5,S-artifacts,2,instantiate,wasm,1.3831,621148,0,true,27.60,0,33.609701,16.254845999999986,54.728556000000026,399.730818
+S-artifacts,5,S-artifacts,3,instantiate,wasm,1.3833,623792,0,true,27.60,0,32.58689100000001,15.963842,55.523123999999996,586.605316
+S-artifacts,5,S-artifacts,4,status,wasm,1.3963,630068,0,true,27.55,0,30.941714000000005,15.858721000000003,56.213490999999976,445.39088200000003
+S-artifacts,5,S-artifacts,1,add Bzip2_jll,stock,3.6480,432736,0,true,27.46,0,,,,
+S-artifacts,5,S-artifacts,2,instantiate,stock,1.4872,378084,0,true,27.26,0,,,,
+S-artifacts,5,S-artifacts,3,instantiate,stock,3.4394,431284,0,true,27.24,0,,,,
+S-artifacts,5,S-artifacts,4,status,stock,1.5045,378712,0,true,27.14,0,,,,
+S-artifacts,5,S-artifacts,1,add Bzip2_jll,native,80.1566,1264088,0,true,27.36,0,,,,
+S-artifacts,5,S-artifacts,2,instantiate,native,62.9275,1223512,0,true,25.06,0,,,,
+S-artifacts,5,S-artifacts,3,instantiate,native,67.4405,1215700,0,true,18.13,0,,,,
+S-artifacts,5,S-artifacts,4,status,native,73.6800,1229072,0,true,15.70,0,,,,
+S-gc,1,S-gc,1,add Example JSON Bzip2_jll,stock,6.5858,634564,0,true,24.92,0,,,,
+S-gc,1,S-gc,2,rm JSON Bzip2_jll,stock,2.2582,381940,0,true,25.01,0,,,,
+S-gc,1,S-gc,3,gc,stock,2.4463,376076,0,true,25.09,0,,,,
+S-gc,1,S-gc,4,gc --verbose,stock,2.3877,375428,0,true,25.32,0,,,,
+S-gc,1,S-gc,5,status,stock,1.5253,377988,0,true,25.46,0,,,,
+S-gc,1,S-gc,1,add Example JSON Bzip2_jll,native,83.6685,1352368,0,true,26.33,0,,,,
+S-gc,1,S-gc,2,rm JSON Bzip2_jll,native,73.2907,1230140,0,true,26.77,0,,,,
+S-gc,1,S-gc,3,gc,native,63.8940,1227868,0,true,26.37,0,,,,
+S-gc,1,S-gc,4,gc --verbose,native,62.2380,1214044,0,true,21.45,0,,,,
+S-gc,1,S-gc,5,status,native,73.6773,1226896,0,true,16.47,0,,,,
+S-gc,1,S-gc,1,add Example JSON Bzip2_jll,wasm,12.2003,833508,0,true,23.78,0,32.306045,17.054212000000007,58.917833,11646.74062
+S-gc,1,S-gc,2,rm JSON Bzip2_jll,wasm,1.1155,741128,0,true,24.42,0,29.964422,17.14005200000001,56.46324799999999,485.267284
+S-gc,1,S-gc,3,gc,wasm,0.5631,159428,0,true,24.70,0,34.168583999999996,16.478004999999996,65.112415,301.96059900000006
+S-gc,1,S-gc,4,gc --verbose,wasm,0.4510,158712,0,true,24.70,0,33.75502,16.084322,57.07317499999999,194.351197
+S-gc,1,S-gc,5,status,wasm,1.3850,710896,0,true,24.97,0,28.527167000000006,16.326403999999997,57.456378,416.881837
+S-gc,2,S-gc,1,add Example JSON Bzip2_jll,wasm,12.0785,842332,0,true,24.97,0,31.480516999999992,16.755408000000003,60.05344400000001,11542.700778999999
+S-gc,2,S-gc,2,rm JSON Bzip2_jll,wasm,1.1177,686280,0,true,25.27,0,35.535038,17.166732999999994,57.98130400000002,527.592713
+S-gc,2,S-gc,3,gc,wasm,0.5509,160656,0,true,25.25,0,29.51929700000001,17.01177099999998,56.48856900000001,299.546696
+S-gc,2,S-gc,4,gc --verbose,wasm,0.4474,160468,0,true,25.25,0,30.37906600000001,18.829310000000007,58.29042700000002,194.72704099999999
+S-gc,2,S-gc,5,status,wasm,1.3959,647216,0,true,25.25,0,32.872451,15.997160999999991,58.710950999999994,431.48866499999997
+S-gc,2,S-gc,1,add Example JSON Bzip2_jll,stock,6.5664,635720,0,true,25.37,0,,,,
+S-gc,2,S-gc,2,rm JSON Bzip2_jll,stock,2.1991,382284,0,true,25.76,0,,,,
+S-gc,2,S-gc,3,gc,stock,2.4155,375400,0,true,25.70,0,,,,
+S-gc,2,S-gc,4,gc --verbose,stock,2.3810,375500,0,true,26.52,0,,,,
+S-gc,2,S-gc,5,status,stock,1.5089,378072,0,true,26.56,0,,,,
+S-gc,2,S-gc,1,add Example JSON Bzip2_jll,native,83.0354,1351200,0,true,26.68,0,,,,
+S-gc,2,S-gc,2,rm JSON Bzip2_jll,native,72.6692,1228576,0,true,26.48,0,,,,
+S-gc,2,S-gc,3,gc,native,65.0872,1226112,0,true,26.35,0,,,,
+S-gc,2,S-gc,4,gc --verbose,native,64.8114,1223216,0,true,26.48,0,,,,
+S-gc,2,S-gc,5,status,native,71.4959,1224284,0,true,26.64,0,,,,
+S-gc,3,S-gc,1,add Example JSON Bzip2_jll,native,80.5795,1351556,0,true,26.23,0,,,,
+S-gc,3,S-gc,2,rm JSON Bzip2_jll,native,66.8408,1217076,0,true,18.57,0,,,,
+S-gc,3,S-gc,3,gc,native,59.5821,1211880,0,true,10.04,0,,,,
+S-gc,3,S-gc,4,gc --verbose,native,64.7493,1211060,0,true,7.14,0,,,,
+S-gc,3,S-gc,5,status,native,72.4930,1227052,0,true,15.79,0,,,,
+S-gc,3,S-gc,1,add Example JSON Bzip2_jll,wasm,12.1434,839700,0,true,23.29,0,30.606149000000002,16.577887999999987,58.123267999999996,11596.555502
+S-gc,3,S-gc,2,rm JSON Bzip2_jll,wasm,1.1209,744836,0,true,23.97,0,30.124184999999997,16.476287000000013,56.601293,487.593932
+S-gc,3,S-gc,3,gc,wasm,0.5470,170524,0,true,23.97,0,33.317057000000005,16.851850000000013,57.309179,294.63342
+S-gc,3,S-gc,4,gc --verbose,wasm,0.4530,160976,0,true,24.21,0,32.85701300000001,17.031452,55.63708199999999,191.468856
+S-gc,3,S-gc,5,status,wasm,1.3543,635036,0,true,24.21,0,32.438208,16.363045,53.86650499999999,423.510004
+S-gc,3,S-gc,1,add Example JSON Bzip2_jll,stock,6.5198,636132,0,true,25.52,0,,,,
+S-gc,3,S-gc,2,rm JSON Bzip2_jll,stock,2.2298,382472,0,true,25.52,0,,,,
+S-gc,3,S-gc,3,gc,stock,2.4007,376188,0,true,25.48,0,,,,
+S-gc,3,S-gc,4,gc --verbose,stock,2.3432,375580,0,true,25.36,0,,,,
+S-gc,3,S-gc,5,status,stock,1.5211,377872,0,true,25.36,0,,,,
+S-gc,4,S-gc,1,add Example JSON Bzip2_jll,stock,6.4724,635396,0,true,25.06,0,,,,
+S-gc,4,S-gc,2,rm JSON Bzip2_jll,stock,2.1527,382432,0,true,26.30,0,,,,
+S-gc,4,S-gc,3,gc,stock,2.3408,375580,0,true,25.47,0,,,,
+S-gc,4,S-gc,4,gc --verbose,stock,2.2924,375480,0,true,24.79,0,,,,
+S-gc,4,S-gc,5,status,stock,1.4628,378032,0,true,24.17,0,,,,
+S-gc,4,S-gc,1,add Example JSON Bzip2_jll,native,81.5071,1348164,0,true,24.24,0,,,,
+S-gc,4,S-gc,2,rm JSON Bzip2_jll,native,73.2167,1228840,0,true,21.96,0,,,,
+S-gc,4,S-gc,3,gc,native,65.6346,1225500,0,true,26.00,0,,,,
+S-gc,4,S-gc,4,gc --verbose,native,65.6417,1224992,0,true,26.11,0,,,,
+S-gc,4,S-gc,5,status,native,71.8406,1228028,0,true,27.92,0,,,,
+S-gc,4,S-gc,1,add Example JSON Bzip2_jll,wasm,11.9684,840648,0,true,26.81,0,30.749430999999987,20.316205999999994,56.498211999999995,11438.180545
+S-gc,4,S-gc,2,rm JSON Bzip2_jll,wasm,1.0785,708040,0,true,27.27,0,26.582069000000004,16.320964999999987,57.076577000000015,539.3702999999999
+S-gc,4,S-gc,3,gc,wasm,0.5493,203856,0,true,27.09,0,36.237207,16.67148899999998,56.49601199999998,284.883763
+S-gc,4,S-gc,4,gc --verbose,wasm,0.4461,157900,0,true,27.09,0,32.69729099999999,17.03205300000002,58.14534900000001,194.06488500000003
+S-gc,4,S-gc,5,status,wasm,1.3591,617624,0,true,27.09,0,28.516008999999997,15.837519999999998,55.933446,425.84159
+S-gc,5,S-gc,1,add Example JSON Bzip2_jll,wasm,11.9862,1000552,0,true,26.77,0,32.85885300000001,15.968761999999998,53.629222999999996,11444.770455000002
+S-gc,5,S-gc,2,rm JSON Bzip2_jll,wasm,1.1001,690344,0,true,26.04,0,34.85947300000001,16.16428300000001,55.873925000000014,517.5422000000001
+S-gc,5,S-gc,3,gc,wasm,0.5285,168612,0,true,25.63,0,30.29394599999999,16.371205000000003,54.426511000000005,288.384919
+S-gc,5,S-gc,4,gc --verbose,wasm,0.4392,169384,0,true,25.63,0,33.153935000000004,16.267324000000002,53.61790300000001,189.00199400000002
+S-gc,5,S-gc,5,status,wasm,1.3719,625552,0,true,24.86,0,30.522588999999996,15.900521000000012,54.479712000000006,426.941042
+S-gc,5,S-gc,1,add Example JSON Bzip2_jll,stock,6.3429,634060,0,true,23.25,0,,,,
+S-gc,5,S-gc,2,rm JSON Bzip2_jll,stock,2.0899,382208,0,true,22.11,0,,,,
+S-gc,5,S-gc,3,gc,stock,2.2576,375860,0,true,20.82,0,,,,
+S-gc,5,S-gc,4,gc --verbose,stock,2.2208,374872,0,true,19.87,0,,,,
+S-gc,5,S-gc,5,status,stock,1.4085,378116,0,true,18.60,0,,,,
+S-gc,5,S-gc,1,add Example JSON Bzip2_jll,native,81.9069,1351660,0,true,17.51,0,,,,
+S-gc,5,S-gc,2,rm JSON Bzip2_jll,native,76.6739,1230720,0,true,19.26,0,,,,
+S-gc,5,S-gc,3,gc,native,69.2208,1226064,0,true,25.12,0,,,,
+S-gc,5,S-gc,4,gc --verbose,native,69.2265,1227988,0,true,33.09,0,,,,
+S-gc,5,S-gc,5,status,native,76.0569,1229876,0,true,30.06,0,,,,
+S-gc-auto,1,S-gc-auto,1,add Example Bzip2_jll,stock,3.8662,432736,0,true,27.29,0,,,,
+S-gc-auto,1,S-gc-auto,2,rm Bzip2_jll,stock,2.4963,383160,0,true,27.35,0,,,,
+S-gc-auto,1,S-gc-auto,3,status,stock,1.4265,378092,0,true,27.56,0,,,,
+S-gc-auto,1,S-gc-auto,1,add Example Bzip2_jll,native,73.7621,1295252,0,true,22.18,0,,,,
+S-gc-auto,1,S-gc-auto,2,rm Bzip2_jll,native,73.4749,1215192,0,true,9.99,0,,,,
+S-gc-auto,1,S-gc-auto,3,status,native,73.2192,1225816,0,true,20.49,0,,,,
+S-gc-auto,1,S-gc-auto,1,add Example Bzip2_jll,wasm,1.7116,839756,0,true,25.53,0,30.926592999999997,17.788100999999983,62.27251099999998,1138.8024950000001
+S-gc-auto,1,S-gc-auto,2,rm Bzip2_jll,wasm,1.5525,619544,0,true,25.56,0,29.80274200000001,16.849131,56.743055,600.028358
+S-gc-auto,1,S-gc-auto,3,status,wasm,1.4142,620720,0,true,25.84,0,32.759451999999996,16.518248,59.03923800000001,442.54600300000004
+S-gc-auto,2,S-gc-auto,1,add Example Bzip2_jll,wasm,1.6191,847004,0,true,26.47,0,29.163976000000005,17.503976999999992,57.37122099999999,1133.7561640000001
+S-gc-auto,2,S-gc-auto,2,rm Bzip2_jll,wasm,1.5263,611832,0,true,26.83,0,32.338967,16.14824399999999,53.91502600000001,595.630634
+S-gc-auto,2,S-gc-auto,3,status,wasm,1.3735,725788,0,true,26.76,0,30.059663999999998,16.335286000000025,57.142618999999996,414.282916
+S-gc-auto,2,S-gc-auto,1,add Example Bzip2_jll,stock,3.6812,432664,0,true,27.24,0,,,,
+S-gc-auto,2,S-gc-auto,2,rm Bzip2_jll,stock,2.3690,383768,0,true,28.02,0,,,,
+S-gc-auto,2,S-gc-auto,3,status,stock,1.6028,378124,0,true,27.86,0,,,,
+S-gc-auto,2,S-gc-auto,1,add Example Bzip2_jll,native,79.9116,1253472,0,true,27.86,0,,,,
+S-gc-auto,2,S-gc-auto,2,rm Bzip2_jll,native,71.8375,1212764,0,true,19.30,0,,,,
+S-gc-auto,2,S-gc-auto,3,status,native,74.7180,1225696,0,true,23.21,0,,,,
+S-gc-auto,3,S-gc-auto,1,add Example Bzip2_jll,native,84.2783,1259496,0,true,26.36,0,,,,
+S-gc-auto,3,S-gc-auto,2,rm Bzip2_jll,native,71.2201,1233196,0,true,26.98,0,,,,
+S-gc-auto,3,S-gc-auto,3,status,native,70.6898,1220660,0,true,18.75,0,,,,
+S-gc-auto,3,S-gc-auto,1,add Example Bzip2_jll,wasm,1.6019,842696,0,true,21.99,0,34.69103100000001,16.873890999999986,58.41283200000001,1146.33845
+S-gc-auto,3,S-gc-auto,2,rm Bzip2_jll,wasm,1.4465,618428,0,true,22.63,0,28.555808999999996,15.981481000000016,54.845955000000004,569.7616499999999
+S-gc-auto,3,S-gc-auto,3,status,wasm,1.4047,616860,0,true,22.82,0,30.230626,16.28768500000001,57.570302999999996,435.338849
+S-gc-auto,3,S-gc-auto,1,add Example Bzip2_jll,stock,3.6745,432180,0,true,23.93,0,,,,
+S-gc-auto,3,S-gc-auto,2,rm Bzip2_jll,stock,2.4918,384360,0,true,24.10,0,,,,
+S-gc-auto,3,S-gc-auto,3,status,stock,1.5662,378160,0,true,24.25,0,,,,
+S-gc-auto,4,S-gc-auto,1,add Example Bzip2_jll,stock,3.8006,432616,0,true,24.66,0,,,,
+S-gc-auto,4,S-gc-auto,2,rm Bzip2_jll,stock,2.3798,383820,0,true,25.73,0,,,,
+S-gc-auto,4,S-gc-auto,3,status,stock,1.5160,378124,0,true,25.67,0,,,,
+S-gc-auto,4,S-gc-auto,1,add Example Bzip2_jll,native,83.1753,1275320,0,true,26.35,0,,,,
+S-gc-auto,4,S-gc-auto,2,rm Bzip2_jll,native,72.5939,1229044,0,true,27.49,0,,,,
+S-gc-auto,4,S-gc-auto,3,status,native,69.0202,1221596,0,true,26.77,0,,,,
+S-gc-auto,4,S-gc-auto,1,add Example Bzip2_jll,wasm,1.6053,843880,0,true,22.64,0,30.635470999999995,16.209164,55.82452599999999,1095.492335
+S-gc-auto,4,S-gc-auto,2,rm Bzip2_jll,wasm,1.5431,613480,0,true,23.23,0,28.309887000000003,17.483576999999997,59.462322,591.527311
+S-gc-auto,4,S-gc-auto,3,status,wasm,1.3702,609824,0,true,23.69,0,29.65450100000001,17.061413,56.978577,432.220778
+S-gc-auto,5,S-gc-auto,1,add Example Bzip2_jll,wasm,1.6294,843920,0,true,24.72,0,32.33612799999999,16.054281999999986,55.05667700000001,1086.731206
+S-gc-auto,5,S-gc-auto,2,rm Bzip2_jll,wasm,1.5029,614012,0,true,24.72,0,32.345127000000005,17.051732999999984,61.070137999999986,589.2803680000001
+S-gc-auto,5,S-gc-auto,3,status,wasm,1.3883,617412,0,true,24.98,0,33.06073500000001,16.178964000000008,55.878686000000016,438.50672199999997
+S-gc-auto,5,S-gc-auto,1,add Example Bzip2_jll,stock,3.7050,433836,0,true,26.01,0,,,,
+S-gc-auto,5,S-gc-auto,2,rm Bzip2_jll,stock,2.4484,383272,0,true,26.57,0,,,,
+S-gc-auto,5,S-gc-auto,3,status,stock,1.5043,377960,0,true,26.68,0,,,,
+S-gc-auto,5,S-gc-auto,1,add Example Bzip2_jll,native,82.8648,1258884,0,true,26.97,0,,,,
+S-gc-auto,5,S-gc-auto,2,rm Bzip2_jll,native,75.0171,1229020,0,true,27.10,0,,,,
+S-gc-auto,5,S-gc-auto,3,status,native,72.4235,1232296,0,true,28.48,0,,,,
+M4,1,M4-cold,1,instantiate,stock,2.9043,421072,0,true,26.54,0,,,,
+M4,1,M4-cold,1,instantiate,native,72.0443,1234432,0,true,26.65,0,,,,
+M4,1,M4-cold,1,instantiate,wasm,3.4422,755500,0,true,27.55,0,33.453739,16.884091000000012,57.698463000000004,3048.3263709999997
+M4,1,M4-warm,1,instantiate,stock,2.8963,421588,0,true,28.03,0,,,,
+M4,1,M4-warm,1,instantiate,native,71.8651,1236880,0,true,27.87,0,,,,
+M4,1,M4-warm,1,instantiate,wasm,2.5071,734412,0,true,26.99,0,29.029854,16.55824700000001,57.22861900000001,2167.937034
+M4,1,M4-noop,1,instantiate,stock,1.7955,392456,0,true,26.83,0,,,,
+M4,1,M4-noop,1,instantiate,native,67.2443,1232276,0,true,29.57,0,,,,
+M4,1,M4-noop,1,instantiate,wasm,1.1730,733924,0,true,27.84,0,35.396951,16.389723000000004,57.26076800000001,615.031101
+M4,2,M4-cold,1,instantiate,wasm,3.4655,755384,0,true,27.70,0,29.084847999999994,16.247360999999998,56.694883000000004,3115.030867
+M4,2,M4-cold,1,instantiate,stock,2.8552,423148,0,true,27.48,0,,,,
+M4,2,M4-cold,1,instantiate,native,71.7642,1234356,0,true,27.28,0,,,,
+M4,2,M4-warm,1,instantiate,wasm,2.4602,746688,0,true,27.62,0,29.515974,16.152601000000004,52.732124,2124.126927
+M4,2,M4-warm,1,instantiate,stock,2.9521,419756,0,true,27.89,0,,,,
+M4,2,M4-warm,1,instantiate,native,71.3887,1238284,0,true,27.53,0,,,,
+M4,2,M4-noop,1,instantiate,wasm,1.1451,732888,0,true,27.20,0,33.01492900000001,17.038729999999987,55.23683,613.671276
+M4,2,M4-noop,1,instantiate,stock,1.7767,392944,0,true,27.18,0,,,,
+M4,2,M4-noop,1,instantiate,native,64.2931,1227052,0,true,26.53,0,,,,
+M4,3,M4-cold,1,instantiate,native,71.6478,1241852,0,true,20.98,0,,,,
+M4,3,M4-cold,1,instantiate,wasm,3.2901,755784,0,true,26.90,0,29.9559,16.25460199999999,53.64389600000001,2967.3140599999997
+M4,3,M4-cold,1,instantiate,stock,2.7973,418948,0,true,26.11,0,,,,
+M4,3,M4-warm,1,instantiate,native,68.0539,1232844,0,true,27.06,0,,,,
+M4,3,M4-warm,1,instantiate,wasm,2.4722,731988,0,true,16.91,0,33.381614,16.535365000000013,53.07905100000002,2123.745735
+M4,3,M4-warm,1,instantiate,stock,2.8379,420360,0,true,16.68,0,,,,
+M4,3,M4-noop,1,instantiate,native,67.1019,1221796,0,true,16.14,0,,,,
+M4,3,M4-noop,1,instantiate,wasm,1.1696,728496,0,true,22.86,0,32.01708099999999,16.697367,57.710938,606.9260009999999
+M4,3,M4-noop,1,instantiate,stock,1.8316,392060,0,true,22.86,0,,,,
+M4,4,M4-cold,1,instantiate,stock,2.8922,419840,0,true,23.27,0,,,,
+M4,4,M4-cold,1,instantiate,native,72.6848,1237288,0,true,23.84,0,,,,
+M4,4,M4-cold,1,instantiate,wasm,3.4543,762904,0,true,26.85,0,33.367535000000004,16.759767999999994,56.553527,3090.036468
+M4,4,M4-warm,1,instantiate,stock,2.9868,421388,0,true,27.42,0,,,,
+M4,4,M4-warm,1,instantiate,native,73.1188,1238936,0,true,27.31,0,,,,
+M4,4,M4-warm,1,instantiate,wasm,2.5312,821516,0,true,28.68,0,38.729909000000006,16.40112400000001,59.032752999999985,2156.2710810000003
+M4,4,M4-noop,1,instantiate,stock,1.8677,391888,0,true,28.87,0,,,,
+M4,4,M4-noop,1,instantiate,native,68.5489,1231476,0,true,29.04,0,,,,
+M4,4,M4-noop,1,instantiate,wasm,1.1680,727504,0,true,28.08,0,29.098051999999996,16.568247000000014,56.10712299999997,616.6950730000001
+M4,5,M4-cold,1,instantiate,wasm,3.4141,763208,0,true,28.31,0,33.286294,17.774657999999988,56.91597199999998,3050.600477
+M4,5,M4-cold,1,instantiate,stock,2.9494,420688,0,true,28.45,0,,,,
+M4,5,M4-cold,1,instantiate,native,73.2176,1240468,0,true,28.89,0,,,,
+M4,5,M4-warm,1,instantiate,wasm,2.5044,732760,0,true,29.65,0,34.160583,16.867729999999995,57.264736,2157.55736
+M4,5,M4-warm,1,instantiate,stock,2.9633,420676,0,true,29.38,0,,,,
+M4,5,M4-warm,1,instantiate,native,73.5654,1233344,0,true,29.59,0,,,,
+M4,5,M4-noop,1,instantiate,wasm,1.1955,729712,0,true,31.65,0,32.22140400000001,17.703497999999996,62.199505999999985,618.998463
+M4,5,M4-noop,1,instantiate,stock,1.9025,392808,0,true,31.92,0,,,,
+M4,5,M4-noop,1,instantiate,native,70.8751,1232844,0,true,31.93,0,,,,

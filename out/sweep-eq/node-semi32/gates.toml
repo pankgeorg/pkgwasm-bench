@@ -1,0 +1,16 @@
+"M4-cold/wasm-node-semi32" = true
+"M4-noop/wasm-node-semi32" = true
+"M4-warm/wasm-node-semi32" = true
+"S-add/wasm-node-semi32" = true
+"S-artifacts/wasm-node-semi32" = true
+"S-compressed/wasm-node-semi32" = true
+"S-fail/wasm-node-semi32" = true
+"S-gc-auto/wasm-node-semi32" = true
+"S-gc/wasm-node-semi32" = true
+"S-git/wasm-node-semi32" = true
+"S-instantiate/wasm-node-semi32" = true
+"S-registry-compressed/wasm-node-semi32" = true
+"S-registry/wasm-node-semi32" = true
+"S-resolve/wasm-node-semi32" = true
+"S-rm/wasm-node-semi32" = true
+"S-status/wasm-node-semi32" = true

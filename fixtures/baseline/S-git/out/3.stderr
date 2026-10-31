@@ -1,0 +1,7 @@
+     Cloning git-repo `/home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/git/Foo`
+    Updating git-repo `/home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/git/Foo`
+   Resolving package versions...
+    Updating `/home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/project/Project.toml`
+  [7876af07] ~ Foo v0.1.0 ⇒ v0.1.0 `../git/Foo#dev`
+    Updating `/home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/project/Manifest.toml`
+  [7876af07] ~ Foo v0.1.0 ⇒ v0.1.0 `../git/Foo#dev`

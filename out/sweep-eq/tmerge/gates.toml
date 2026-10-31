@@ -1,0 +1,16 @@
+"M4-cold/wasm-tmerge" = true
+"M4-noop/wasm-tmerge" = true
+"M4-warm/wasm-tmerge" = true
+"S-add/wasm-tmerge" = true
+"S-artifacts/wasm-tmerge" = true
+"S-compressed/wasm-tmerge" = true
+"S-fail/wasm-tmerge" = true
+"S-gc-auto/wasm-tmerge" = true
+"S-gc/wasm-tmerge" = true
+"S-git/wasm-tmerge" = true
+"S-instantiate/wasm-tmerge" = true
+"S-registry-compressed/wasm-tmerge" = true
+"S-registry/wasm-tmerge" = true
+"S-resolve/wasm-tmerge" = true
+"S-rm/wasm-tmerge" = true
+"S-status/wasm-tmerge" = true

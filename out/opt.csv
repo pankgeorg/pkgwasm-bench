@@ -1,0 +1,111 @@
+kind,variant,round,wall_s,maxrss_kib,size_bytes,flags,load1
+pkgwasm,O3,1,44.38,2167320,5160359,-O3,4.25
+pkgwasm,O3,2,44.66,2295272,5160359,-O3,4.62
+pkgwasm,O3,3,45.08,2274936,5160359,-O3,7.19
+pkgwasm,O3,4,46.11,2304140,5160359,-O3,10.31
+pkgwasm,O3,5,44.87,2334564,5160359,-O3,8.27
+pkgwasm,O3conv,1,207.01,4126460,5039129,-O3 --converge,10.62
+pkgwasm,O3conv,2,211.18,4109300,5039129,-O3 --converge,19.41
+pkgwasm,O3conv,3,214.57,4097848,5039129,-O3 --converge,10.12
+pkgwasm,O3conv,4,207.42,3879276,5039129,-O3 --converge,13.69
+pkgwasm,O3conv,5,209.99,3922040,5039129,-O3 --converge,13.69
+bench,O3,1,8.49,368752,923339,-O3,10.41
+bench,O3,2,8.51,369456,923339,-O3,11.58
+bench,O3,3,8.64,370276,923339,-O3,11.14
+bench,O3,4,8.46,365496,923339,-O3,10.34
+bench,O3,5,8.41,361168,923339,-O3,9.53
+bench,O3conv,1,36.69,686476,893528,-O3 --converge,17.98
+bench,O3conv,2,36.57,706232,893528,-O3 --converge,12.43
+bench,O3conv,3,36.88,692208,893528,-O3 --converge,9.24
+bench,O3conv,4,36.23,697168,893528,-O3 --converge,6.96
+bench,O3conv,5,35.97,693000,893528,-O3 --converge,7.18
+pkgwasm,O3x2,1,58.40,2735716,5108813,-O3 -O3,7.78
+pkgwasm,O3x2,2,58.04,2660644,5108813,-O3 -O3,7.85
+pkgwasm,O3x2,3,58.12,2690644,5108813,-O3 -O3,7.56
+pkgwasm,O3x2,4,57.55,2568752,5108813,-O3 -O3,8.13
+pkgwasm,O3x2,5,57.31,2678796,5108813,-O3 -O3,11.29
+bench,O3x2,1,10.67,394860,912121,-O3 -O3,11.04
+bench,O3x2,2,10.42,389708,912121,-O3 -O3,10.57
+bench,O3x2,3,10.27,372616,912121,-O3 -O3,10.55
+bench,O3x2,4,10.40,395584,912121,-O3 -O3,10.28
+bench,O3x2,5,10.21,397692,912121,-O3 -O3,9.63
+pkgwasm,Os,1,42.44,2070232,4914055,-Os,7.79
+pkgwasm,Os,2,42.05,2003296,4914055,-Os,6.74
+pkgwasm,Os,3,41.87,2048180,4914055,-Os,8.71
+pkgwasm,Os,4,41.85,2107984,4914055,-Os,6.59
+pkgwasm,Os,5,42.20,2047476,4914055,-Os,11.62
+bench,Os,1,5.91,343584,873777,-Os,11.01
+bench,Os,2,6.04,344784,873777,-Os,10.52
+bench,Os,3,5.89,343628,873777,-Os,10.16
+bench,Os,4,6.04,338148,873777,-Os,9.13
+bench,Os,5,5.99,340956,873777,-Os,8.64
+pkgwasm,gufaopt,1,51.97,2212548,5164579,-O3 --gufa-optimizing,6.34
+pkgwasm,gufaopt,2,51.60,2257760,5164579,-O3 --gufa-optimizing,11.23
+pkgwasm,gufaopt,3,52.55,2331436,5164579,-O3 --gufa-optimizing,16.34
+pkgwasm,gufaopt,4,52.69,2265960,5164579,-O3 --gufa-optimizing,8.56
+pkgwasm,gufaopt,5,51.87,2215356,5164579,-O3 --gufa-optimizing,5.68
+bench,gufaopt,1,9.43,376576,917343,-O3 --gufa-optimizing,7.14
+bench,gufaopt,2,9.48,375940,917343,-O3 --gufa-optimizing,6.88
+bench,gufaopt,3,9.77,380208,917343,-O3 --gufa-optimizing,6.21
+bench,gufaopt,4,9.62,384984,917343,-O3 --gufa-optimizing,5.97
+bench,gufaopt,5,9.62,377500,917343,-O3 --gufa-optimizing,5.91
+pkgwasm,tmerge,1,44.65,2231200,5160359,--type-merging -O3,10.84
+pkgwasm,tmerge,2,44.22,2296724,5160359,--type-merging -O3,9.40
+pkgwasm,tmerge,3,44.12,2272808,5160359,--type-merging -O3,10.98
+pkgwasm,tmerge,4,44.45,2186892,5160359,--type-merging -O3,15.53
+pkgwasm,tmerge,5,44.95,2258116,5160359,--type-merging -O3,16.54
+bench,tmerge,1,8.52,361188,923339,--type-merging -O3,14.30
+bench,tmerge,2,8.34,356448,923339,--type-merging -O3,12.49
+bench,tmerge,3,8.55,357608,923339,--type-merging -O3,10.96
+bench,tmerge,4,8.39,365016,923339,--type-merging -O3,10.56
+bench,tmerge,5,8.33,364032,923339,--type-merging -O3,9.48
+pkgwasm,atr,1,44.16,2315748,5160359,--abstract-type-refining -O3,16.50
+pkgwasm,atr,2,44.53,2286572,5160359,--abstract-type-refining -O3,16.81
+pkgwasm,atr,3,45.72,2262384,5160359,--abstract-type-refining -O3,12.84
+pkgwasm,atr,4,45.41,2256464,5160359,--abstract-type-refining -O3,17.45
+pkgwasm,atr,5,44.59,2204284,5160359,--abstract-type-refining -O3,10.56
+bench,atr,1,8.30,348060,923339,--abstract-type-refining -O3,9.63
+bench,atr,2,8.32,370236,923339,--abstract-type-refining -O3,8.77
+bench,atr,3,8.39,359456,923339,--abstract-type-refining -O3,8.44
+bench,atr,4,8.38,369740,923339,--abstract-type-refining -O3,8.16
+bench,atr,5,8.42,360956,923339,--abstract-type-refining -O3,7.94
+pkgwasm,rut,1,44.78,2339672,5160359,--remove-unused-types -O3,7.83
+pkgwasm,rut,2,44.26,2260508,5160359,--remove-unused-types -O3,7.05
+pkgwasm,rut,3,44.31,2269384,5160359,--remove-unused-types -O3,11.18
+pkgwasm,rut,4,45.61,2338172,5160359,--remove-unused-types -O3,12.19
+pkgwasm,rut,5,45.65,2307492,5160359,--remove-unused-types -O3,8.61
+bench,rut,1,8.41,358588,923339,--remove-unused-types -O3,8.56
+bench,rut,2,8.48,360576,923339,--remove-unused-types -O3,8.50
+bench,rut,3,8.50,364448,923339,--remove-unused-types -O3,7.81
+bench,rut,4,8.48,364840,923339,--remove-unused-types -O3,7.22
+bench,rut,5,8.44,361944,923339,--remove-unused-types -O3,7.28
+pkgwasm,mono,1,188.55,2499032,5161808,--monomorphize -O3,12.39
+pkgwasm,mono,2,205.98,2557592,5161808,--monomorphize -O3,26.57
+pkgwasm,mono,3,222.56,2478852,5161808,--monomorphize -O3,23.46
+pkgwasm,mono,4,193.65,2465332,5161808,--monomorphize -O3,9.53
+pkgwasm,mono,5,222.04,2490236,5161808,--monomorphize -O3,31.82
+bench,mono,1,24.15,434488,921393,--monomorphize -O3,30.22
+bench,mono,2,24.04,421472,921393,--monomorphize -O3,27.96
+bench,mono,3,23.00,429696,921393,--monomorphize -O3,24.36
+bench,mono,4,22.33,416512,921393,--monomorphize -O3,20.95
+bench,mono,5,22.28,422140,921393,--monomorphize -O3,16.24
+pkgwasm,gccombo,1,53.94,2146420,5164579,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,15.83
+pkgwasm,gccombo,2,53.05,2172832,5164579,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,12.18
+pkgwasm,gccombo,3,53.77,2338344,5164579,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,8.82
+pkgwasm,gccombo,4,53.29,2281068,5164579,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,14.64
+pkgwasm,gccombo,5,52.99,2304080,5164579,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,11.22
+bench,gccombo,1,9.90,382216,917343,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,10.98
+bench,gccombo,2,9.87,377620,917343,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,11.92
+bench,gccombo,3,9.54,379412,917343,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,10.54
+bench,gccombo,4,9.73,380712,917343,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,9.31
+bench,gccombo,5,9.57,367076,917343,--abstract-type-refining --type-merging --remove-unused-types -O3 --gufa-optimizing,9.44
+pkgwasm,tnh,1,44.07,2213264,5054227,-O3 -tnh,10.59
+pkgwasm,tnh,2,43.59,2239388,5054227,-O3 -tnh,12.12
+pkgwasm,tnh,3,44.14,2264316,5054227,-O3 -tnh,9.26
+pkgwasm,tnh,4,43.93,2246584,5054227,-O3 -tnh,6.22
+pkgwasm,tnh,5,43.71,2239864,5054227,-O3 -tnh,16.46
+bench,tnh,1,8.14,353180,905513,-O3 -tnh,14.38
+bench,tnh,2,8.10,359516,905513,-O3 -tnh,12.70
+bench,tnh,3,8.15,361140,905513,-O3 -tnh,12.96
+bench,tnh,4,8.42,363008,905513,-O3 -tnh,11.59
+bench,tnh,5,8.20,361232,905513,-O3 -tnh,10.58

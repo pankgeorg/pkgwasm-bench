@@ -1,0 +1,16 @@
+"M4-cold/wasm-tnh" = true
+"M4-noop/wasm-tnh" = true
+"M4-warm/wasm-tnh" = true
+"S-add/wasm-tnh" = true
+"S-artifacts/wasm-tnh" = true
+"S-compressed/wasm-tnh" = true
+"S-fail/wasm-tnh" = true
+"S-gc-auto/wasm-tnh" = true
+"S-gc/wasm-tnh" = true
+"S-git/wasm-tnh" = true
+"S-instantiate/wasm-tnh" = true
+"S-registry-compressed/wasm-tnh" = true
+"S-registry/wasm-tnh" = true
+"S-resolve/wasm-tnh" = true
+"S-rm/wasm-tnh" = true
+"S-status/wasm-tnh" = true

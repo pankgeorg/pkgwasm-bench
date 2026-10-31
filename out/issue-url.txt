@@ -1,0 +1,1 @@
+https://github.com/gbaraldi/WasmCodegen.jl/issues/43

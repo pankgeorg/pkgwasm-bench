@@ -1,0 +1,151 @@
+diff --git a/build.jl b/build.jl
+index 37b05e5..c294fb0 100644
+--- a/build.jl
++++ b/build.jl
+@@ -25,7 +25,7 @@ import TOML, Pkg
+ include(joinpath(@__DIR__, "imagescan.jl"))
+ 
+ const ROOT = normpath(joinpath(@__DIR__, ".."))
+-const NODE = get(ENV, "NODE", joinpath(ROOT, "repos/npm-tools/node24/node_modules/.bin/node"))
++const NODE = get(ENV, "NODE", joinpath(homedir(), "wasm-pkg/repos/npm-tools/node24/node_modules/.bin/node"))
+ 
+ # Sentinels for D8: values the image must not capture. `pkgwasm_init` reads the real values
+ # from WASI env at runtime.
+@@ -62,7 +62,7 @@ path_inside(p, root) = startswith(canonpath(p) * "/", rstrip(canonpath(root), '/
+ function parse_args(args)
+     o = Dict{String, Any}(
+         "wcg" => joinpath(ROOT, "src/WasmCodegen.jl"), "builder" => joinpath(ROOT, "src/WasmBuilder.jl"),
+-        "pkgwasm" => joinpath(ROOT, "src/PkgWasm.jl"), "patches" => String[],
++        "pkgwasm" => joinpath(ROOT, "src/PkgWasm.jl"), "irs" => joinpath(ROOT, "src/IRStructurizer.jl"), "patches" => String[],
+         "out" => joinpath(ROOT, "out/pkgwasm.wasm"), "trim" => "safe", "verify" => "error",
+         "optimize" => true, "setup_only" => false, "hooks_fallback" => false,
+         "env_dir" => joinpath(ROOT, "out", "build-env"), "tasks" => "none")
+@@ -73,6 +73,7 @@ function parse_args(args)
+         if a == "--wcg"; o["wcg"] = abspath(val())
+         elseif a == "--builder"; o["builder"] = abspath(val())
+         elseif a == "--pkgwasm"; o["pkgwasm"] = abspath(val())
++        elseif a == "--irs"; o["irs"] = abspath(val())
+         elseif a == "--patch"; push!(o["patches"], abspath(val()))
+         elseif a == "--out"; o["out"] = abspath(val())
+         elseif a == "--trim"; o["trim"] = val()
+@@ -91,7 +92,7 @@ function parse_args(args)
+     o["trim"] in ("safe", "unsafe") || error("--trim must be safe or unsafe")
+     o["verify"] in ("error", "warn", "off") || error("--verify must be error, warn or off")
+     o["tasks"] in ("none", "jspi") || error("--tasks must be none or jspi")
+-    for k in ("wcg", "builder", "pkgwasm")
++    for k in ("wcg", "builder", "pkgwasm", "irs")
+         isfile(joinpath(o[k], "Project.toml")) || error("--$k $(o[k]) is not a package checkout")
+     end
+     for root in (joinpath(ROOT, "out", "relocation-cache"), joinpath(ROOT, "out", "sentinel"))
+@@ -116,7 +117,7 @@ function setup_env(o)
+     env = o["env_dir"]   # separate dirs allow concurrent builds of different checkouts
+     mkpath(env)
+     name(dir) = TOML.parsefile(joinpath(dir, "Project.toml"))
+-    wcg, wb, pw = name(o["wcg"]), name(o["builder"]), name(o["pkgwasm"])
++    wcg, wb, pw, irs = name(o["wcg"]), name(o["builder"]), name(o["pkgwasm"]), name(o["irs"])
+     pw["name"] == "PkgWasm" || error("--pkgwasm $(o["pkgwasm"]) is package $(pw["name"]), not PkgWasm (needs L3's rename, M3.1)")
+     proj = Dict(
+         # D9 (pkg-trim): PkgWasm's compile-time preference selects the Wasm Context IO type.
+@@ -124,9 +125,10 @@ function setup_env(o)
+         # "native"). Harmless for a PkgWasm that does not read it.
+         # S2: `tasks` selects the serial (none, S1) or the stock concurrent (jspi) download pool.
+         "preferences" => Dict("PkgWasm" => Dict("target" => "wasm", "tasks" => o["tasks"])),
+-        "deps" => Dict(wcg["name"] => wcg["uuid"], wb["name"] => wb["uuid"], pw["name"] => pw["uuid"]),
++        # (this host: IRStructurizer pinned here too; WasmCodegen's own [sources] name the other host's path)
++        "deps" => Dict(wcg["name"] => wcg["uuid"], wb["name"] => wb["uuid"], pw["name"] => pw["uuid"], irs["name"] => irs["uuid"]),
+         "sources" => Dict(wcg["name"] => Dict("path" => o["wcg"]), wb["name"] => Dict("path" => o["builder"]),
+-                          pw["name"] => Dict("path" => o["pkgwasm"])))
++                          pw["name"] => Dict("path" => o["pkgwasm"]), irs["name"] => Dict("path" => o["irs"])))
+     open(io -> TOML.print(io, proj; sorted = true), joinpath(env, "Project.toml"), "w")
+     rm(joinpath(env, "Manifest.toml"); force = true)   # re-resolve against the chosen checkouts
+     return env
+diff --git a/pkgwasm.mjs b/pkgwasm.mjs
+index e96b274..02f0b18 100644
+--- a/pkgwasm.mjs
++++ b/pkgwasm.mjs
+@@ -348,7 +348,9 @@ export async function run(o, { log = (s) => process.stderr.write(s) } = {}) {
+   const flushTrace = () => { if (tracer) fs.writeFileSync(o.traceFs, tracer.lines.map((l) => l + '\n').join('')); };
+   try {
+     const bytes = fs.readFileSync(o.wasm);
++    const compileStart = performance.now();
+     const mod = await WebAssembly.compile(bytes);
++    t.compile_only = performance.now() - compileStart;
+     mark('compile');
+     checkModuleImports(mod);
+     validateStart(bytes, mod);
+@@ -373,6 +375,7 @@ export async function run(o, { log = (s) => process.stderr.write(s) } = {}) {
+     const imports = { wasi_snapshot_preview1: wasiImp,
+       ...guardImports({ ...jioImp, julia_regex: rx.imports, ...legacy.imports, ...(jt ? jt.imports : {}) }, phase) };
+     let instance;
++    const instantiateStart = performance.now();
+     try {
+       instance = await WebAssembly.instantiate(mod, imports);
+     } catch (e) {
+@@ -381,6 +384,7 @@ export async function run(o, { log = (s) => process.stderr.write(s) } = {}) {
+     }
+     if (phase.violation) throw new Error(`start function called import ${phase.violation} (ABI v2 §6.2)`);
+     phase.name = 'run';
++    t.instantiate_only = performance.now() - instantiateStart;
+     mark('instantiate');
+ 
+     const ex = instance.exports;
+@@ -400,14 +404,18 @@ export async function run(o, { log = (s) => process.stderr.write(s) } = {}) {
+     }
+ 
+     // One promising invocation at a time (ABI §5.4): strictly sequential awaits.
++    const initStart = performance.now();
+     const st = await root(ex.pkgwasm_init);
++    t.init_only = performance.now() - initStart;
+     mark('init');
+     if (st !== 0) {
+       legacy.flush();
+       flushTrace();
+       return { code: st, timing: t, phase: 'init' };
+     }
++    const mainStart = performance.now();
+     const rc = await root(ex.pkgwasm_main);
++    t.main_only = performance.now() - mainStart;
+     mark('main');
+     legacy.flush();
+     flushTrace();
+diff --git a/scenarios.jl b/scenarios.jl
+index 84fd6f5..429f98f 100644
+--- a/scenarios.jl
++++ b/scenarios.jl
+@@ -20,7 +20,7 @@
+ # Each command runs in a fresh process (native) or a fresh Wasm instance (one command per
+ # instance, ABI §6). Exit status is 0 iff every scenario is equivalent to its baseline.
+ 
+-import TOML
++import TOML, Dates
+ include(joinpath(@__DIR__, "compare.jl"))
+ include(joinpath(@__DIR__, "imagescan.jl"))
+ 
+@@ -31,7 +31,7 @@ const SCEN_FILE = joinpath(FIX, "scenarios.toml")
+ scenario_names() = [String(m.captures[1]) for m in eachmatch(r"^\[(S-[A-Za-z-]+)\]"m, read(SCEN_FILE, String))]
+ const SCENARIOS = TOML.parsefile(SCEN_FILE)
+ const JULIA_EXE = joinpath(Sys.BINDIR, Base.julia_exename())
+-const NODE = get(ENV, "NODE", "/home/pgeorgakopoulos/wasm-pkg/repos/npm-tools/node24/node_modules/.bin/node")
++const NODE = get(ENV, "NODE", joinpath(homedir(), "wasm-pkg/repos/npm-tools/node24/node_modules/.bin/node"))
+ 
+ # ---------------------------------------------------------------- frozen server
+ struct Server
+@@ -236,6 +236,18 @@ function setup_scenario(name, rundir)
+         rm(joinpath(rundir, d); recursive = true)
+         run(`cp -a $(joinpath(src, d)) $(joinpath(rundir, d))`)
+     end
++    # These committed baselines include Pkg.add's registry update. Rebuilt templates
++    # have a recent update log, and Pkg.add otherwise skips it for Day(1).
++    if name in ("S-artifacts", "S-gc", "S-gc-auto")
++        log = joinpath(rundir, "depot", "scratchspaces", "44cfe95a-1eb2-52ea-b672-e2afdf69b78f", "registry_updates.toml")
++        if isfile(log)
++            updates = TOML.parsefile(log)
++            for k in keys(updates)
++                updates[k] = Dates.DateTime(2000, 1, 1)
++            end
++            open(io -> TOML.print(io, updates; sorted=true), log, "w")
++        end
++    end
+     for step in get(sc, "setup", String[])
+         apply_setup(step, rundir)
+     end

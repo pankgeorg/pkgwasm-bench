@@ -1,0 +1,210 @@
+{
+  "cp": {
+    "matches_native": true,
+    "total_host_calls": 36742,
+    "top_calls": [
+      [
+        "julia_io.path_mode",
+        6866
+      ],
+      [
+        "wasi_snapshot_preview1.path_filestat_get",
+        6862
+      ],
+      [
+        "wasi_snapshot_preview1.fd_close",
+        3985
+      ],
+      [
+        "wasi_snapshot_preview1.fd_fdstat_get",
+        3985
+      ],
+      [
+        "wasi_snapshot_preview1.path_open",
+        3985
+      ]
+    ]
+  },
+  "dir": {
+    "matches_native": true,
+    "total_host_calls": 90057,
+    "top_calls": [
+      [
+        "julia_io.path_mode",
+        20004
+      ],
+      [
+        "wasi_snapshot_preview1.path_filestat_get",
+        20002
+      ],
+      [
+        "wasi_snapshot_preview1.fd_close",
+        10003
+      ],
+      [
+        "wasi_snapshot_preview1.fd_fdstat_get",
+        10003
+      ],
+      [
+        "wasi_snapshot_preview1.path_open",
+        10003
+      ]
+    ]
+  },
+  "lines": {
+    "matches_native": true,
+    "total_host_calls": 400094,
+    "top_calls": [
+      [
+        "wasi_snapshot_preview1.fd_write",
+        400001
+      ],
+      [
+        "wasi_snapshot_preview1.fd_read",
+        64
+      ],
+      [
+        "wasi_snapshot_preview1.random_get",
+        5
+      ],
+      [
+        "wasi_snapshot_preview1.fd_prestat_get",
+        4
+      ],
+      [
+        "wasi_snapshot_preview1.fd_close",
+        3
+      ]
+    ]
+  },
+  "read": {
+    "matches_native": true,
+    "total_host_calls": 3234,
+    "top_calls": [
+      [
+        "wasi_snapshot_preview1.fd_read",
+        3200
+      ],
+      [
+        "wasi_snapshot_preview1.clock_time_get",
+        5
+      ],
+      [
+        "wasi_snapshot_preview1.random_get",
+        5
+      ],
+      [
+        "wasi_snapshot_preview1.fd_prestat_get",
+        4
+      ],
+      [
+        "wasi_snapshot_preview1.fd_close",
+        3
+      ]
+    ]
+  },
+  "tar": {
+    "matches_native": true,
+    "total_host_calls": 94998,
+    "top_calls": [
+      [
+        "wasi_snapshot_preview1.path_filestat_get",
+        12994
+      ],
+      [
+        "wasi_snapshot_preview1.fd_seek",
+        10524
+      ],
+      [
+        "julia_io.path_mode",
+        10245
+      ],
+      [
+        "wasi_snapshot_preview1.fd_read",
+        9532
+      ],
+      [
+        "wasi_snapshot_preview1.fd_write",
+        9152
+      ]
+    ]
+  },
+  "toml": {
+    "matches_native": true,
+    "total_host_calls": 621763,
+    "top_calls": [
+      [
+        "wasi_snapshot_preview1.path_filestat_get",
+        135516
+      ],
+      [
+        "julia_io.path_mode",
+        135516
+      ],
+      [
+        "wasi_snapshot_preview1.fd_read",
+        116330
+      ],
+      [
+        "wasi_snapshot_preview1.fd_close",
+        73227
+      ],
+      [
+        "wasi_snapshot_preview1.fd_fdstat_get",
+        73227
+      ]
+    ]
+  },
+  "walk": {
+    "matches_native": true,
+    "total_host_calls": 373858,
+    "top_calls": [
+      [
+        "wasi_snapshot_preview1.path_filestat_get",
+        156866
+      ],
+      [
+        "julia_io.path_mode",
+        156866
+      ],
+      [
+        "wasi_snapshot_preview1.fd_close",
+        15027
+      ],
+      [
+        "wasi_snapshot_preview1.fd_fdstat_get",
+        15027
+      ],
+      [
+        "wasi_snapshot_preview1.path_open",
+        15027
+      ]
+    ]
+  },
+  "walkdir": {
+    "matches_native": true,
+    "total_host_calls": 313758,
+    "top_calls": [
+      [
+        "wasi_snapshot_preview1.path_filestat_get",
+        126816
+      ],
+      [
+        "julia_io.path_mode",
+        126816
+      ],
+      [
+        "wasi_snapshot_preview1.fd_close",
+        15027
+      ],
+      [
+        "wasi_snapshot_preview1.fd_fdstat_get",
+        15027
+      ],
+      [
+        "wasi_snapshot_preview1.path_open",
+        15027
+      ]
+    ]
+  }
+}

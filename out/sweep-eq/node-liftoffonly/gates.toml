@@ -1,0 +1,16 @@
+"M4-cold/wasm-node-liftoffonly" = true
+"M4-noop/wasm-node-liftoffonly" = true
+"M4-warm/wasm-node-liftoffonly" = true
+"S-add/wasm-node-liftoffonly" = true
+"S-artifacts/wasm-node-liftoffonly" = true
+"S-compressed/wasm-node-liftoffonly" = true
+"S-fail/wasm-node-liftoffonly" = true
+"S-gc-auto/wasm-node-liftoffonly" = true
+"S-gc/wasm-node-liftoffonly" = true
+"S-git/wasm-node-liftoffonly" = true
+"S-instantiate/wasm-node-liftoffonly" = true
+"S-registry-compressed/wasm-node-liftoffonly" = true
+"S-registry/wasm-node-liftoffonly" = true
+"S-resolve/wasm-node-liftoffonly" = true
+"S-rm/wasm-node-liftoffonly" = true
+"S-status/wasm-node-liftoffonly" = true

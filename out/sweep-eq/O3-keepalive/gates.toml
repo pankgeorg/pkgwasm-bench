@@ -1,0 +1,16 @@
+"M4-cold/wasm-keepalive" = true
+"M4-noop/wasm-keepalive" = true
+"M4-warm/wasm-keepalive" = true
+"S-add/wasm-keepalive" = true
+"S-artifacts/wasm-keepalive" = true
+"S-compressed/wasm-keepalive" = true
+"S-fail/wasm-keepalive" = true
+"S-gc-auto/wasm-keepalive" = true
+"S-gc/wasm-keepalive" = true
+"S-git/wasm-keepalive" = true
+"S-instantiate/wasm-keepalive" = true
+"S-registry-compressed/wasm-keepalive" = true
+"S-registry/wasm-keepalive" = true
+"S-resolve/wasm-keepalive" = true
+"S-rm/wasm-keepalive" = true
+"S-status/wasm-keepalive" = true

@@ -1,0 +1,8 @@
+src/WasmCodegen.jl
+5d4b68e0d5eba32ee901d06e81c525efaa2d8666
+src/PkgWasm.jl
+9fe2f5ab458abba7b4d4f3de4aa86e64f97d67b5
+src/WasmBuilder.jl
+4b64c589478e8769209a3870488f65c77a751f6c
+src/IRStructurizer.jl
+ab056b165d5038229e2dd700df932b8a9704e03b

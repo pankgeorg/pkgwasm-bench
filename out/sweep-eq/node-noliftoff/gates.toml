@@ -1,0 +1,16 @@
+"M4-cold/wasm-node-noliftoff" = true
+"M4-noop/wasm-node-noliftoff" = true
+"M4-warm/wasm-node-noliftoff" = true
+"S-add/wasm-node-noliftoff" = true
+"S-artifacts/wasm-node-noliftoff" = true
+"S-compressed/wasm-node-noliftoff" = true
+"S-fail/wasm-node-noliftoff" = true
+"S-gc-auto/wasm-node-noliftoff" = true
+"S-gc/wasm-node-noliftoff" = true
+"S-git/wasm-node-noliftoff" = true
+"S-instantiate/wasm-node-noliftoff" = true
+"S-registry-compressed/wasm-node-noliftoff" = true
+"S-registry/wasm-node-noliftoff" = true
+"S-resolve/wasm-node-noliftoff" = true
+"S-rm/wasm-node-noliftoff" = true
+"S-status/wasm-node-noliftoff" = true

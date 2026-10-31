@@ -1,0 +1,197 @@
+errors = ["", "", "", "", "", "", "", ""]
+exits = [0, 0, 0, 0, 0, 0, 0, 0]
+julia_system = ["aarch64-linux-gnu-libgfortran5-cxx11-libstdcxx30-julia_version+1.13.2"]
+kind = "baseline"
+registry_listing = ["CACHEDIR.TAG", "Reg"]
+requests = ["GET /registries 200"]
+rundir = "/home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git"
+
+[packages]
+"Bar/Pm4LV" = "e8bbee70f48bb1afe71a73186ae39cdc558ec5a6"
+"Foo/BypJA" = "2c736be6681720bd3e270ce68ed33c0c2233df9a"
+"Foo/uLK6h" = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+[path_sources]
+Foo = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+[[registries]]
+content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+dirname = "Reg"
+masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+name = "Reg"
+storage = "git"
+tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"
+
+[[steps]]
+requests = ["GET /registries 200"]
+
+    [steps.packages]
+
+    [steps.path_sources]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "Reg"]
+    update_log_keys = ["nothing"]
+
+        [[steps.registries.registries]]
+        content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        dirname = "Reg"
+        masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+        name = "Reg"
+        storage = "git"
+        tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"
+[[steps]]
+requests = ["GET /registries 200"]
+
+    [steps.packages]
+    "Foo/uLK6h" = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.path_sources]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "Reg"]
+    update_log_keys = ["c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11", "nothing"]
+
+        [[steps.registries.registries]]
+        content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        dirname = "Reg"
+        masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+        name = "Reg"
+        storage = "git"
+        tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"
+[[steps]]
+requests = ["GET /registries 200"]
+
+    [steps.packages]
+    "Foo/BypJA" = "2c736be6681720bd3e270ce68ed33c0c2233df9a"
+    "Foo/uLK6h" = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.path_sources]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "Reg"]
+    update_log_keys = ["c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11", "nothing"]
+
+        [[steps.registries.registries]]
+        content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        dirname = "Reg"
+        masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+        name = "Reg"
+        storage = "git"
+        tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"
+[[steps]]
+requests = ["GET /registries 200"]
+
+    [steps.packages]
+    "Foo/BypJA" = "2c736be6681720bd3e270ce68ed33c0c2233df9a"
+    "Foo/uLK6h" = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.path_sources]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "Reg"]
+    update_log_keys = ["c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11", "nothing"]
+
+        [[steps.registries.registries]]
+        content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        dirname = "Reg"
+        masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+        name = "Reg"
+        storage = "git"
+        tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"
+[[steps]]
+requests = ["GET /registries 200"]
+
+    [steps.packages]
+    "Bar/Pm4LV" = "e8bbee70f48bb1afe71a73186ae39cdc558ec5a6"
+    "Foo/BypJA" = "2c736be6681720bd3e270ce68ed33c0c2233df9a"
+    "Foo/uLK6h" = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.path_sources]
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "Reg"]
+    update_log_keys = ["c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11", "nothing"]
+
+        [[steps.registries.registries]]
+        content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        dirname = "Reg"
+        masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+        name = "Reg"
+        storage = "git"
+        tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"
+[[steps]]
+requests = ["GET /registries 200"]
+
+    [steps.packages]
+    "Bar/Pm4LV" = "e8bbee70f48bb1afe71a73186ae39cdc558ec5a6"
+    "Foo/BypJA" = "2c736be6681720bd3e270ce68ed33c0c2233df9a"
+    "Foo/uLK6h" = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.path_sources]
+    Foo = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "Reg"]
+    update_log_keys = ["c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11", "nothing"]
+
+        [[steps.registries.registries]]
+        content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        dirname = "Reg"
+        masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+        name = "Reg"
+        storage = "git"
+        tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"
+[[steps]]
+requests = ["GET /registries 200"]
+
+    [steps.packages]
+    "Bar/Pm4LV" = "e8bbee70f48bb1afe71a73186ae39cdc558ec5a6"
+    "Foo/BypJA" = "2c736be6681720bd3e270ce68ed33c0c2233df9a"
+    "Foo/uLK6h" = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.path_sources]
+    Foo = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "Reg"]
+    update_log_keys = ["c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11", "nothing"]
+
+        [[steps.registries.registries]]
+        content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        dirname = "Reg"
+        masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+        name = "Reg"
+        storage = "git"
+        tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"
+[[steps]]
+requests = []
+
+    [steps.packages]
+    "Bar/Pm4LV" = "e8bbee70f48bb1afe71a73186ae39cdc558ec5a6"
+    "Foo/BypJA" = "2c736be6681720bd3e270ce68ed33c0c2233df9a"
+    "Foo/uLK6h" = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.path_sources]
+    Foo = "074c764350e4b96a914b2ed6b839252de4a77c2b"
+
+    [steps.registries]
+    listing = ["CACHEDIR.TAG", "Reg"]
+    update_log_keys = ["c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11", "nothing"]
+
+        [[steps.registries.registries]]
+        content_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        dirname = "Reg"
+        masked_files = "13c27ec2045568d5c89aa35d21907870cb24aa13694173cfce321e26d731c3fa"
+        name = "Reg"
+        storage = "git"
+        tree_hash = "ba05f51d56da143e6862cc1338ab0768c72f6885"
+        uuid = "c0a2e2a8-7f4e-4a3d-9a59-0f5b2e3e6f11"

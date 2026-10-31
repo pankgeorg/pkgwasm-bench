@@ -1,0 +1,6 @@
+    Updating git-repo `file:///home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/git/Foo`
+   Resolving package versions...
+    Updating `/home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/project/Project.toml`
+  [3fc5ad6e] + Bar v0.2.0 `file:///home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/git/Foo:sub/Bar#main`
+    Updating `/home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/project/Manifest.toml`
+  [3fc5ad6e] + Bar v0.2.0 `file:///home/pgeorgakopoulos/wasm-pkg/wt/git-host-fixtures/baseline/.run-S-git/git/Foo:sub/Bar#main`

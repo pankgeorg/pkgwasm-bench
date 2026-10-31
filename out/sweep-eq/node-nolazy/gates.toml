@@ -1,0 +1,16 @@
+"M4-cold/wasm-node-nolazy" = true
+"M4-noop/wasm-node-nolazy" = true
+"M4-warm/wasm-node-nolazy" = true
+"S-add/wasm-node-nolazy" = true
+"S-artifacts/wasm-node-nolazy" = true
+"S-compressed/wasm-node-nolazy" = true
+"S-fail/wasm-node-nolazy" = true
+"S-gc-auto/wasm-node-nolazy" = true
+"S-gc/wasm-node-nolazy" = true
+"S-git/wasm-node-nolazy" = true
+"S-instantiate/wasm-node-nolazy" = true
+"S-registry-compressed/wasm-node-nolazy" = true
+"S-registry/wasm-node-nolazy" = true
+"S-resolve/wasm-node-nolazy" = true
+"S-rm/wasm-node-nolazy" = true
+"S-status/wasm-node-nolazy" = true

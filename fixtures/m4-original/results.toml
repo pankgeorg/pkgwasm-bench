@@ -1,0 +1,333 @@
+[[run]]
+date = "2026-10-29T15:32:10"
+delay_ms = 0
+exit = 0
+hash_mismatches = []
+label = "native-stock-d0"
+packages = 33
+run = 1
+seconds = 2.336
+wasm = "native"
+
+[[run]]
+date = "2026-10-29T15:44:55"
+delay_ms = 0
+exit = 70
+hash_mismatches = ["IteratorInterfaceExtensions: missing != a3f24677c21f5bbe9d2a714f95dcd58337fb2856", "StatsAPI: missing != 178ed29fd5b2a2cfc3bd31c13375ae925623ff36", "LaTeXStrings: missing != f88f3ccef05a6a72a0cf0ed417c8fd68530f4ab2", "DataStructures: missing != b0bc6d2cad1fed8b7fd59a1551a991cb3d2809e6", "Example: missing != e1f0e1a832ccd8e97d6d0348dec33ee139a5aeaf", "Crayons: missing != 54b76cbb40d9a0f5368c880725b2f141da77c94f", "Parsers: missing != 610915fdeab587d89d6e9f2768b7268674ceb62b", "Compat: missing != 9d8a54ce4b17aa5bdce0ea5c34bc5e7c340d16ad", "Missings: missing != d9d20d6eb2a3290ba5c70a1c013b45305cc39c9e", "MacroTools: missing != 1e0228a030642014fe5cfe68c2c0a818f9e3f522", "SortingAlgorithms: missing != 13cd91cc9be159e3f4d95b857fa2aa383b53772a", "PrettyPrint: missing != 632eb4abab3449ab30c5e1afaa874f0b98b586e4", "JSON: missing != 3a9b0da8237deffb70be5e8d2e9af7601e4a79b0", "Preferences: missing != aef1987d90dcc2e2cbd919ad10b2d25bcce4f418", "ConstructionBase: missing != b4b092499347b18a015186eae3042f72267106cb", "StructUtils: missing != 96cf0c4f535157787dc4089eca1cbed62d124d5f", "CompositionsBase: missing != 802bb88cd69dfd1509f6670416bd4434015693ad", "InverseFunctions: missing != 5cc6ad3e2bfc75a11eed92632ee341d37f4a4536", "Setfield: missing != 89880a2cca5cabc68c9023f58e544beda1d2fc1f", "Tables: missing != a94d9bdda1b7bed0046cea645639ab3f62196fac", "Reexport: missing != 45e428421666073eab6f2da5c9d310d99bb12f9b", "StaticArraysCore: missing != 6ab403037779dae8c514bad259f32a447262455a", "PrecompileTools: missing != edbeefc7a4889f528644251bdb5fc9ab5348bc2c", "TranscodingStreams: missing != 0c45878dcfdcfa8480052b6ab162cdd138781742", "ExplicitImports: missing != a8b6c26bf0ea9f8c4bad71e109a5fa64f34be392", "Accessors: missing != 8c0bc12397dabf5d2dfc4b5763ec463854cc44d3", "TableTraits: missing != c06b2f539df1c6efa794486abfb6ed2022561a39", "OrderedCollections: missing != b079a6affebde167dad8ffe0d670b53917fbcb68", "DataValueInterfaces: missing != bfc1187b79289637fa0ef6d4436ebdfe6905cbd6", "URIs: missing != 50eda8011f098869a76da69a524ff59e0298711a", "DocStringExtensions: missing != 38ef52f18cbdfa783ec6c25acc23fb1e8525ec16", "BitFlags: missing != bbe1079eecf9c9fbb52765193ad2bae27ae09bc8", "DataAPI: missing != abe83f3a2f1b857aac70ef8b269080af17764bbe"]
+label = "preview-s2-spike-d0"
+packages = 33
+run = 1
+seconds = 0.1
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/jspi-warn2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:45:28"
+delay_ms = 0
+exit = 0
+hash_mismatches = []
+label = "preview-s2-spike-d0"
+packages = 33
+run = 1
+seconds = 20.858
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/jspi-warn2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:53:44"
+delay_ms = 0
+exit = 0
+hash_mismatches = []
+label = "s1-d0"
+packages = 33
+run = 1
+seconds = 21.444
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:54:05"
+delay_ms = 0
+exit = 0
+hash_mismatches = []
+label = "s1-d0"
+packages = 33
+run = 2
+seconds = 21.29
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:54:27"
+delay_ms = 0
+exit = 0
+hash_mismatches = []
+label = "s1-d0"
+packages = 33
+run = 3
+seconds = 21.389
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:54:50"
+delay_ms = 0
+exit = 0
+hash_mismatches = []
+label = "s2-d0"
+packages = 33
+run = 1
+seconds = 20.693
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/jspi-warn2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:55:11"
+delay_ms = 0
+exit = 0
+hash_mismatches = []
+label = "s2-d0"
+packages = 33
+run = 2
+seconds = 20.807
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/jspi-warn2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:55:32"
+delay_ms = 0
+exit = 0
+hash_mismatches = []
+label = "s2-d0"
+packages = 33
+run = 3
+seconds = 20.824
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/jspi-warn2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:55:59"
+delay_ms = 100
+exit = 0
+hash_mismatches = []
+label = "s1-d100"
+packages = 33
+run = 1
+seconds = 25.05
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:56:24"
+delay_ms = 100
+exit = 0
+hash_mismatches = []
+label = "s1-d100"
+packages = 33
+run = 2
+seconds = 24.949
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:56:49"
+delay_ms = 100
+exit = 0
+hash_mismatches = []
+label = "s1-d100"
+packages = 33
+run = 3
+seconds = 24.943
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:57:13"
+delay_ms = 100
+exit = 0
+hash_mismatches = []
+label = "s2-d100"
+packages = 33
+run = 1
+seconds = 21.486
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/jspi-warn2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:57:34"
+delay_ms = 100
+exit = 0
+hash_mismatches = []
+label = "s2-d100"
+packages = 33
+run = 2
+seconds = 21.168
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/jspi-warn2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T15:57:56"
+delay_ms = 100
+exit = 0
+hash_mismatches = []
+label = "s2-d100"
+packages = 33
+run = 3
+seconds = 21.197
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/jspi-warn2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:31:35"
+delay_ms = 0
+download_seconds = 20.23
+exit = 0
+hash_mismatches = []
+label = "final-s1-d0"
+noop_exit = 0
+noop_seconds = 1.353
+packages = 33
+run = 1
+seconds = 21.583
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:31:58"
+delay_ms = 0
+download_seconds = 20.038
+exit = 0
+hash_mismatches = []
+label = "final-s1-d0"
+noop_exit = 0
+noop_seconds = 1.332
+packages = 33
+run = 2
+seconds = 21.37
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:32:21"
+delay_ms = 0
+download_seconds = 20.106
+exit = 0
+hash_mismatches = []
+label = "final-s1-d0"
+noop_exit = 0
+noop_seconds = 1.356
+packages = 33
+run = 3
+seconds = 21.462
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:32:46"
+delay_ms = 0
+download_seconds = 19.577
+exit = 0
+hash_mismatches = []
+label = "final-s2-d0"
+noop_exit = 0
+noop_seconds = 1.436
+packages = 33
+run = 1
+seconds = 21.013
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s2-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:33:09"
+delay_ms = 0
+download_seconds = 19.773
+exit = 0
+hash_mismatches = []
+label = "final-s2-d0"
+noop_exit = 0
+noop_seconds = 1.433
+packages = 33
+run = 2
+seconds = 21.206
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s2-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:33:32"
+delay_ms = 0
+download_seconds = 19.811
+exit = 0
+hash_mismatches = []
+label = "final-s2-d0"
+noop_exit = 0
+noop_seconds = 1.378
+packages = 33
+run = 3
+seconds = 21.189
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s2-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:34:00"
+delay_ms = 100
+download_seconds = 23.75
+exit = 0
+hash_mismatches = []
+label = "final-s1-d100"
+noop_exit = 0
+noop_seconds = 1.378
+packages = 33
+run = 1
+seconds = 25.128
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:34:27"
+delay_ms = 100
+download_seconds = 23.652
+exit = 0
+hash_mismatches = []
+label = "final-s1-d100"
+noop_exit = 0
+noop_seconds = 1.368
+packages = 33
+run = 2
+seconds = 25.02
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:34:53"
+delay_ms = 100
+download_seconds = 23.623
+exit = 0
+hash_mismatches = []
+label = "final-s1-d100"
+noop_exit = 0
+noop_seconds = 1.376
+packages = 33
+run = 3
+seconds = 24.999
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s1-gate2/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:35:19"
+delay_ms = 100
+download_seconds = 20.187
+exit = 0
+hash_mismatches = []
+label = "final-s2-d100"
+noop_exit = 0
+noop_seconds = 1.398
+packages = 33
+run = 1
+seconds = 21.585
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s2-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:35:42"
+delay_ms = 100
+download_seconds = 20.059
+exit = 0
+hash_mismatches = []
+label = "final-s2-d100"
+noop_exit = 0
+noop_seconds = 1.325
+packages = 33
+run = 2
+seconds = 21.384
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s2-gate/pkgwasm.wasm"
+
+[[run]]
+date = "2026-10-29T16:36:04"
+delay_ms = 100
+download_seconds = 19.856
+exit = 0
+hash_mismatches = []
+label = "final-s2-d100"
+noop_exit = 0
+noop_seconds = 1.387
+packages = 33
+run = 3
+seconds = 21.243
+wasm = "/home/pgeorgakopoulos/wasm-pkg/out/s2-pkg/s2-gate/pkgwasm.wasm"
+

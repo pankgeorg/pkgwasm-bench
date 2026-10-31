@@ -1,0 +1,16 @@
+"M4-cold/wasm-gccombo" = true
+"M4-noop/wasm-gccombo" = true
+"M4-warm/wasm-gccombo" = true
+"S-add/wasm-gccombo" = true
+"S-artifacts/wasm-gccombo" = true
+"S-compressed/wasm-gccombo" = true
+"S-fail/wasm-gccombo" = true
+"S-gc-auto/wasm-gccombo" = true
+"S-gc/wasm-gccombo" = true
+"S-git/wasm-gccombo" = true
+"S-instantiate/wasm-gccombo" = true
+"S-registry-compressed/wasm-gccombo" = true
+"S-registry/wasm-gccombo" = true
+"S-resolve/wasm-gccombo" = true
+"S-rm/wasm-gccombo" = true
+"S-status/wasm-gccombo" = true

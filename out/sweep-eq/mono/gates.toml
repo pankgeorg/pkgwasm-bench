@@ -1,0 +1,16 @@
+"M4-cold/wasm-mono" = true
+"M4-noop/wasm-mono" = true
+"M4-warm/wasm-mono" = true
+"S-add/wasm-mono" = true
+"S-artifacts/wasm-mono" = true
+"S-compressed/wasm-mono" = true
+"S-fail/wasm-mono" = true
+"S-gc-auto/wasm-mono" = true
+"S-gc/wasm-mono" = true
+"S-git/wasm-mono" = true
+"S-instantiate/wasm-mono" = true
+"S-registry-compressed/wasm-mono" = true
+"S-registry/wasm-mono" = true
+"S-resolve/wasm-mono" = true
+"S-rm/wasm-mono" = true
+"S-status/wasm-mono" = true
